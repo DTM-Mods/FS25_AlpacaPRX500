@@ -74,6 +74,7 @@
 
     <triggerMarkers>
         <triggerMarker node="markerFood"         filename="$data/shared/assets/marker/markerIconFood.i3d" />
+        <triggerMarker node="markerPalletSwitch" filename="$data/shared/assets/marker/markerIconExclamationMark.i3d" />
         <triggerMarker node="markerPallets"      filename="$data/shared/assets/marker/markerIconPallet.i3d" />
         <triggerMarker node="markerAnimals"      filename="$data/shared/assets/marker/markerIconAnimals.i3d" />
     </triggerMarkers>
@@ -586,5 +587,6 @@
         <i3dMapping id="stallLamp" node="0>26|22" />
         <i3dMapping id="stallLampLight" node="0>26|23" />
         <i3dMapping id="stallLampLightHigh" node="0>26|24" />
+        <i3dMapping id="markerPalletSwitch" node="0>26|25" />
     </i3dMappings>
 </placeable>

@@ -1,5 +1,11 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.16.6.0 – 2026-11-08 – Marker at the pallet switch
+
+Untested in game.
+
+- A floating **exclamation-mark circle** now marks the spot in front of the pallet size cabinet (the game's own marker, like the paw print for animals).
+
 ## 1.16.5.0 – 2026-11-08 – Pallet switch prompt, fourth fix
 
 Untested in game.
