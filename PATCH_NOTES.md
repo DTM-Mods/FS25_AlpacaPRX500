@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.11.1.0 – 2026-11-08 – Round lamp removed
+
+Untested in game.
+
+- **Round ceiling lamp removed** from the shearing room.
+- The room's existing **tube light** is now the one that's **always on** (day and night); before, it only came on at night.
+
 ## 1.11.0.0 – 2026-11-08 – Shelf, flowers and ceiling light
 
 Untested in game.

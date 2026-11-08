@@ -288,7 +288,7 @@
 
     <lights>
         <group weatherRequiredFlags="NIGHT" />
-        <!-- group 2: shearing room ceiling lamp, no time/weather condition = always on -->
+        <!-- group 2: shearing room ceiling tube light, no time/weather condition = always on -->
         <group />
 
         <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="lightNode01" groupIndex="1" color="1 0 0" />
@@ -299,9 +299,8 @@
         <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="lightNode06" groupIndex="1" color="1 0 0" />
         <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="lightNode07" groupIndex="1" color="1 0 0" />
         <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="lightNode08" groupIndex="1" color="1 0 0" />
-        <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="tubeLight01" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="tubeLight01" groupIndex="2"/>
         <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="tubeLight02" groupIndex="1"/>
-        <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="stallLamp" groupIndex="2" />
 
         <realLights>
             <low>
