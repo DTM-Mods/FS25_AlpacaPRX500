@@ -1,5 +1,13 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.9.2.0 – 2026-11-08 – Pasture fix and shop picture
+
+Untested in game.
+
+- **Pasture can be customised again.** The alpaca fence from the Beans & Alpacas DLC didn't load, so there was no pasture to set when placing the barn. This also caused the "Navigation mesh node not defined" error, because the alpacas' walking area is built from the fence outline.
+- **Shop picture:** transparent background, like the other buildings in the list (the green is gone).
+- **Unchanged:** the mod icon in the mod list.
+
 ## 1.9.1.0 – 2026-11-08 – First build
 
 Untested in game.

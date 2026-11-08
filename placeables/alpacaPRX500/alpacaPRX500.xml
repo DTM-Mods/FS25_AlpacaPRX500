@@ -350,7 +350,7 @@
             </waterPlaces>
         </water>
 
-        <fence xmlFilename="$pdlcdir$beansAndAlpacasPack/placeables/fences/alpacaFence/alpacaFence.xml">
+        <fence xmlFilename="placeables/fences/alpacaFence/alpacaFence.xml">
             <sections>
                 <section segmentId="SEGMENT" customizable="true">
                     <node node="fence1Node1" />

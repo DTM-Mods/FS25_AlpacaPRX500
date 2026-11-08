@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>PropaineX</author>
-    <version>1.9.1.0</version>
+    <version>1.9.2.0</version>
     <title>
         <en>Alpaca PRX500</en>
     </title>
@@ -32,6 +32,7 @@ Uses the base-game Hörmann models, no extra textures.]]></en>
     </dependencies>
     <extraSourceFiles>
         <sourceFile filename="scripts/PRXAlpacaFood.lua" />
+        <sourceFile filename="scripts/PRXAlpacaFence.lua" />
     </extraSourceFiles>
     <placeableSpecializations>
         <specialization name="prxRandomCapacity" className="PRXRandomCapacity" filename="scripts/PRXRandomCapacity.lua" />
