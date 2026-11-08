@@ -87,6 +87,25 @@ function PRXAlpacaFood.apply()
         end
     end
 
+    -- effectiveness (%) the same as for sheep on this map: grass like the sheep's grass, hay like the sheep's hay.
+    -- The meadow (pasture) row uses the grass group's %, so it follows too.
+    local function sheepWeight(fillTypeIndex)
+        for _, group in pairs(sheepFood.groups) do
+            if groupHas(group, fillTypeIndex) and group.productionWeight ~= nil then
+                return group.productionWeight
+            end
+        end
+        return nil
+    end
+    for _, pair in ipairs({{alpacaGrass, GRASS}, {alpacaHay, HAY}}) do
+        local group, weight = pair[1], sheepWeight(pair[2])
+        if weight ~= nil and group.productionWeight ~= weight then
+            Logging.info("[Alpaca PRX500] Alpaca '%s' effectiveness %d%% -> %d%% (same as sheep)",
+                tostring(group.title), math.floor((group.productionWeight or 0) * 100 + 0.5), math.floor(weight * 100 + 0.5))
+            group.productionWeight = weight
+        end
+    end
+
     if #added > 0 then
         Logging.info("[Alpaca PRX500] Alpacas now also eat (same as sheep): %s", table.concat(added, ", "))
     else

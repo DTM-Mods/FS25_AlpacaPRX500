@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>PropaineX</author>
-    <version>1.11.2.0</version>
+    <version>1.12.0.0</version>
     <title>
         <en>Alpaca PRX500</en>
     </title>
@@ -37,11 +37,13 @@ Uses the base-game Hörmann models, no extra textures.]]></en>
     <placeableSpecializations>
         <specialization name="prxRandomCapacity" className="PRXRandomCapacity" filename="scripts/PRXRandomCapacity.lua" />
         <specialization name="prxStrawBedding" className="PRXStrawBedding" filename="scripts/PRXStrawBedding.lua" />
+        <specialization name="prxPalletStack" className="PRXPalletStack" filename="scripts/PRXPalletStack.lua" />
     </placeableSpecializations>
     <placeableTypes>
         <type name="alpacaPRX500" parent="pdlc_beansAndAlpacasPack.alpacaHusbandry" className="Placeable" filename="$dataS/scripts/placeables/Placeable.lua">
             <specialization name="prxRandomCapacity" />
             <specialization name="prxStrawBedding" />
+            <specialization name="prxPalletStack" />
         </type>
     </placeableTypes>
     <storeItems>

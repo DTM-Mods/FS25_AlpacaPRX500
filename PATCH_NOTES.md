@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.12.0.0 – 2026-11-08 – Food at sheep %, pallets stack 2 high
+
+Untested in game.
+
+- **Food effectiveness matches the sheep on the map.** Alpaca grass gets the sheep's grass %, alpaca hay gets the sheep's hay %. On maps where sheep get 100% for both, **Grass and Meadow (pasture) are 100%** for alpacas too.
+- **Fleece pallets can stack 2 high** on the 6 spawn rows in the garage (each spawn spot allows up to 4 m; a fleece pallet is about 1.8 m).
+
 ## 1.11.2.0 – 2026-11-08 – Food fix
 
 Untested in game.
