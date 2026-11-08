@@ -368,6 +368,9 @@
                     <spawnPlace startNode="palletArea5Start" endNode="palletArea5End" />
                     <spawnPlace startNode="palletArea6Start" endNode="palletArea6End" />
                 </spawnPlaces>
+                <pallets>
+                    <pallet filename="placeables/alpacaPRX500/fleecePallet5000.xml" />
+                </pallets>
             </palletSpawner>
         </pallets>
 

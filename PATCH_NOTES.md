@@ -1,5 +1,13 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.13.0.0 – 2026-11-08 – 5,000 l fleece pallets
+
+Untested in game.
+
+- **Fleece pallets from this barn hold 5,000 l** (the DLC's own fleece pallet holds 2,000 l).
+- They use the game's wool-bag pallet look, filled with alpaca fleece; not sold in the shop.
+- Fleece pallets already made before this version stay at 2,000 l.
+
 ## 1.12.0.0 – 2026-11-08 – Food at sheep %, pallets stack 2 high
 
 Untested in game.

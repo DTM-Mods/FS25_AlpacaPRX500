@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>PropaineX</author>
-    <version>1.12.0.0</version>
+    <version>1.13.0.0</version>
     <title>
         <en>Alpaca PRX500</en>
     </title>
@@ -48,9 +48,11 @@ Uses the base-game Hörmann models, no extra textures.]]></en>
     </placeableTypes>
     <storeItems>
         <storeItem xmlFilename="placeables/alpacaPRX500/alpacaPRX500.xml" />
+        <storeItem xmlFilename="placeables/alpacaPRX500/fleecePallet5000.xml" />
     </storeItems>
     <l10n>
         <text name="prx_alpacaPRX500"><en>Alpaca PRX500</en></text>
+        <text name="prx_fleecePallet"><en>Alpaca Fleece</en></text>
         <text name="prx_strawBedding"><en>Straw Bedding</en></text>
         <text name="prx_function_alpacaPen"><en>Animal pen for alpacas (holds at least 100)</en></text>
     </l10n>
