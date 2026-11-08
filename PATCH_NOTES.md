@@ -5,7 +5,7 @@
 Untested in game.
 
 - **Halter ropes** no longer go through the back wall; moved out to hang in front of it.
-- **Broom** taken off the workbench; it now stands on the floor in the corner, leaning against the back wall.
+- **Broom** taken off the workbench; it now stands on the floor in the corner by the window, leaning against the wall.
 
 ## 1.10.0.0 – 2026-11-08 – Shearing room and pallet bays
 
