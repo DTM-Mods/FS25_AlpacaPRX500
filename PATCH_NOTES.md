@@ -1,5 +1,14 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.11.2.0 – 2026-11-08 – Food fix
+
+Untested in game.
+
+- **Trough food now gets eaten.** On maps where sheep keep grass and hay in one food group, fresh grass was counted as alpaca *hay* (100%). The pasture supplies fresh grass, so the alpacas grazed it as top food and never touched the trough.
+- Food types are now sorted one by one: dry grass, dry alfalfa and dry clover are **Hay**; fresh grass, alfalfa and clover are **Grass**.
+- As a result **Meadow** (pasture) counts as Grass at **60%**.
+- Like before, this applies to every alpaca barn while this mod is loaded.
+
 ## 1.11.1.0 – 2026-11-08 – Round lamp removed
 
 Untested in game.

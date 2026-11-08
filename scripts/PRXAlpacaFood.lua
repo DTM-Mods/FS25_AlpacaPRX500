@@ -1,9 +1,8 @@
 -- Alpaca PRX500: alpacas eat whatever grass and hay sheep eat on this map (PropaineX)
 -- Runs once per game load, on the server and on every client (each loads the map's food list itself).
--- For every SHEEP food group that holds grass (GRASS_WINDROW) its fill types go into the ALPACA grass group;
--- for every SHEEP group that holds hay (DRYGRASS_WINDROW) its fill types go into the ALPACA hay group.
+-- Every fill type in the SHEEP grass/hay groups is added to the matching ALPACA group, one type at a time.
 -- So map crops like alfalfa or clover, or any custom forage a map puts with the sheep's grass/hay, also feed alpacas.
--- Meadow (pasture grazing) gets the same effectiveness as grass.
+-- Fill types are sorted one by one (dry = hay, fresh = grass), so pasture grass counts as Grass, not Hay.
 
 PRXAlpacaFood = {}
 PRXAlpacaFood.done = false
@@ -52,32 +51,38 @@ function PRXAlpacaFood.apply()
         return
     end
 
+    -- Sort every fill type one by one, never a whole group: a map may keep the sheep's grass and hay in ONE group,
+    -- and copying that whole group put fresh grass into the alpaca Hay group. The pasture (meadow) supplies fresh grass,
+    -- so the alpacas then grazed "hay" at 100% and never ate from the trough.
+    --   in a sheep group with hay but no grass       -> Hay
+    --   in a sheep group with grass but no hay       -> Grass
+    --   in a combined group: name starting "DRY"     -> Hay, anything else -> Grass
+    local function targetFor(group, fillTypeIndex)
+        local hasGrass, hasHay = groupHas(group, GRASS), groupHas(group, HAY)
+        if hasHay and not hasGrass then return alpacaHay end
+        if hasGrass and not hasHay then return alpacaGrass end
+        if hasGrass and hasHay then
+            local name = g_fillTypeManager:getFillTypeNameByIndex(fillTypeIndex) or ""
+            if string.sub(name, 1, 3) == "DRY" then return alpacaHay end
+            return alpacaGrass
+        end
+        return nil
+    end
+
     local added = {}
     for _, group in pairs(sheepFood.groups) do
-        local targets = {}
-        if groupHas(group, GRASS) then
-            table.insert(targets, alpacaGrass)
-        end
-        if groupHas(group, HAY) and (#targets == 0 or targets[1] ~= alpacaHay) then
-            table.insert(targets, alpacaHay)
-        end
-        for _, target in ipairs(targets) do
-            for _, fillTypeIndex in pairs(group.fillTypes) do
-                if not groupHas(target, fillTypeIndex) then
+        for _, fillTypeIndex in pairs(group.fillTypes) do
+            local target = targetFor(group, fillTypeIndex)
+            if target ~= nil then
+                -- one fill type belongs to one alpaca group only
+                local inOther = false
+                for _, g in pairs(alpacaFood.groups) do
+                    if g ~= target and groupHas(g, fillTypeIndex) then inOther = true end
+                end
+                if not inOther and not groupHas(target, fillTypeIndex) then
                     table.insert(target.fillTypes, fillTypeIndex)
                     table.insert(added, string.format("%s -> %s", tostring(g_fillTypeManager:getFillTypeNameByIndex(fillTypeIndex)), tostring(target.title)))
                 end
-            end
-        end
-    end
-
-    -- meadow (pasture grazing) counts the same as grass: give every other alpaca food group the grass group's effectiveness
-    if alpacaGrass ~= alpacaHay and alpacaGrass.productionWeight ~= nil then
-        for _, group in pairs(alpacaFood.groups) do
-            if group ~= alpacaGrass and group ~= alpacaHay and group.productionWeight ~= alpacaGrass.productionWeight then
-                Logging.info("[Alpaca PRX500] Food group '%s' effectiveness %d%% -> %d%% (same as grass)",
-                    tostring(group.title), math.floor((group.productionWeight or 0) * 100 + 0.5), math.floor(alpacaGrass.productionWeight * 100 + 0.5))
-                group.productionWeight = alpacaGrass.productionWeight
             end
         end
     end
