@@ -1,5 +1,11 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.14.4.0 – 2026-11-08 – Smaller footprint behind the garage
+
+Untested in game.
+
+- **Footprint cut back** behind the garage: the ground cleared, levelled and checked for room now ends about 1.5 m past the garage roof instead of about 9 m. More of that land stays as field or grass.
+
 ## 1.14.3.0 – 2026-11-08 – Waiting fleece comes out
 
 Untested in game.

@@ -205,13 +205,13 @@
     <TransformGroup name="cowBarnMedium" nodeId="1">
       <TransformGroup name="clearAreas" translation="0 0.09 0" nodeId="2">
         <TransformGroup name="clearAreaStart01" translation="23.2244 0 12.5037" nodeId="3">
-          <TransformGroup name="clearAreaWidth01" translation="-65.3035 0 0" nodeId="4"/>
+          <TransformGroup name="clearAreaWidth01" translation="-59.7244 0 0" nodeId="4"/>
           <TransformGroup name="clearAreaHeight01" translation="0 0 -28.4783" nodeId="5"/>
         </TransformGroup>
       </TransformGroup>
       <TransformGroup name="levelAreas" nodeId="6">
         <TransformGroup name="levelAreaStart01" translation="25.5883 0 12.3867" nodeId="7">
-          <TransformGroup name="levelAreaWidth01" translation="-71.5296 0 0" nodeId="8"/>
+          <TransformGroup name="levelAreaWidth01" translation="-62.0883 0 0" nodeId="8"/>
           <TransformGroup name="levelAreaHeight01" translation="0 0 -27.9808" nodeId="9"/>
         </TransformGroup>
       </TransformGroup>
@@ -226,8 +226,8 @@
         </TransformGroup>
       </TransformGroup>
       <TransformGroup name="testAreas" translation="0 0.09 0" nodeId="17">
-        <TransformGroup name="testAreaStart01" translation="-42.0 0 9.555181" nodeId="18">
-          <TransformGroup name="testAreaEnd01" translation="62.334084 7.901484 -25.1" nodeId="19"/>
+        <TransformGroup name="testAreaStart01" translation="-36.5 0 9.555181" nodeId="18">
+          <TransformGroup name="testAreaEnd01" translation="56.834084 7.901484 -25.1" nodeId="19"/>
         </TransformGroup>
       </TransformGroup>
       <TransformGroup name="tipOcclusionUpdateAreas" translation="0 0.09 0" nodeId="20">
