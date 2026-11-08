@@ -11,8 +11,55 @@ function PRXPalletStack.prerequisitesPresent(specializations)
     return SpecializationUtil.hasSpecialization(PlaceableHusbandryPallets, specializations)
 end
 
+PRXPalletStack.RETRY_MS = 5000
+
 function PRXPalletStack.registerEventListeners(placeableType)
     SpecializationUtil.registerEventListener(placeableType, "onPostLoad", PRXPalletStack)
+    SpecializationUtil.registerEventListener(placeableType, "onFinalizePlacement", PRXPalletStack)
+    SpecializationUtil.registerEventListener(placeableType, "onDelete", PRXPalletStack)
+end
+
+local function hasWaitingFleece(self)
+    local spec = self.spec_husbandryPallets
+    if spec == nil or spec.pendingLiters == nil then
+        return false
+    end
+    for _, liters in pairs(spec.pendingLiters) do
+        if liters > 5 then
+            return true
+        end
+    end
+    return false
+end
+
+-- server: while fleece is waiting, try to spawn it every RETRY_MS (real time), so it comes out as soon as there's room
+function PRXPalletStack:onFinalizePlacement()
+    if not self.isServer then
+        return
+    end
+    local placeable = self
+    self.prxPalletRetry = {
+        timer = 0,
+        update = function(updateable, dt)
+            updateable.timer = updateable.timer + dt
+            if updateable.timer < PRXPalletStack.RETRY_MS then
+                return
+            end
+            updateable.timer = 0
+            local spec = placeable.spec_husbandryPallets
+            if spec ~= nil and spec.numSpawnsPending == 0 and hasWaitingFleece(placeable) then
+                placeable:updatePallets()
+            end
+        end
+    }
+    g_currentMission:addUpdateable(self.prxPalletRetry)
+end
+
+function PRXPalletStack:onDelete()
+    if self.prxPalletRetry ~= nil then
+        g_currentMission:removeUpdateable(self.prxPalletRetry)
+        self.prxPalletRetry = nil
+    end
 end
 
 function PRXPalletStack.registerOverwrittenFunctions(placeableType)

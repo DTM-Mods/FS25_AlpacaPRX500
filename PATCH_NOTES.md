@@ -4,7 +4,7 @@
 
 Untested in game.
 
-- **Fixed: fleece that didn't fit at shearing never came out.** It waits in the barn ("not enough room" warning), but the game only retried the spawn when the animals make fleece every hour, which alpacas don't. The barn now retries **every in-game hour** while fleece is waiting, so once you clear the pallets it spawns within the hour.
+- **Fixed: fleece that didn't fit at shearing never came out.** It waits in the barn ("not enough room" warning), but the game only retried the spawn when the animals make fleece every hour, which alpacas don't. While fleece is waiting, the barn now checks for room **every 5 seconds** and spawns it as soon as a pallet fits.
 - Nothing was lost: fleece already waiting (e.g. 10,335 l in the test save) comes out after the update.
 
 ## 1.14.2.0 – 2026-11-08 – Straw bedding goes down
