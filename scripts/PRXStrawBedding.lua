@@ -151,10 +151,14 @@ function PRXStrawBedding:updateOutput(superFunc, foodFactor, productionFactor, g
 
     if self.isServer then
         -- bonus from the bedding as it was this hour, then use some up
+        local adj = g_currentMission.environment.timeAdjustment
+        local amount = (spec.litersPerDay / 24) * adj
         if fillLevel > 0 and spec.litersPerDay > 0 then
-            local amount = (spec.litersPerDay / 24) * g_currentMission.environment.timeAdjustment
             self:removeHusbandryFillLevel(self:getOwnerFarmId(), math.min(amount, fillLevel), spec.fillType)
         end
+        -- TEMP diagnostics (straw not going down in test): one line per in-game hour
+        Logging.info("[Alpaca PRX500] straw hourly: before %.1f, after %.1f, wanted %.2f (l/day %.0f, timeAdjustment %s)",
+            fillLevel, self:getHusbandryFillLevel(spec.fillType) or -1, amount, spec.litersPerDay, tostring(adj))
         PRXStrawBedding.updateStrawPlane(self)
     end
 
@@ -165,6 +169,18 @@ function PRXStrawBedding:getConditionInfos(superFunc)
     local infos = superFunc(self)
     local spec = self[PRXStrawBedding.SPEC]
     local ratio, fillLevel = PRXStrawBedding.getRatio(self)
+
+    -- the game's Productivity row is capped at 100%; show the real total with our bonuses (display only)
+    local animals = self.spec_husbandryAnimals
+    if animals ~= nil and animals.info ~= nil and animals.info.value ~= nil then
+        local hay = self[PRXHayBonus ~= nil and PRXHayBonus.SPEC or ""]
+        local total = animals.info.value * PRXStrawBedding.getFactor(ratio) * ((hay ~= nil and hay.lastBonus) or 1)
+        for _, row in ipairs(infos) do
+            if row == animals.info then
+                row.valueText = string.format("%s %%", g_i18n:formatNumber(total * 100, 0))
+            end
+        end
+    end
 
     local info = {}
     info.title = string.format("%s (%s%% production, %s l/day)", spec.title, g_i18n:formatNumber(PRXStrawBedding.getFactor(ratio) * 100, 1), g_i18n:formatNumber(spec.litersPerDay or 0, 0))

@@ -59,6 +59,7 @@ function PRXHayBonus:updateOutput(superFunc, foodFactor, productionFactor, globa
         bonus = 1 + PRXHayBonus.BONUS * math.clamp(spec.eatenHay / spec.eatenTotal, 0, 1)
     end
     if spec ~= nil then
+        spec.lastBonus = bonus
         spec.eatenHay = 0
         spec.eatenTotal = 0
     end

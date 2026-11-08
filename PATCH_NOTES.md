@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.14.1.0 – 2026-11-08 – Productivity shows bonuses; straw check
+
+Untested in game.
+
+- **Productivity row** on the barn's info screen now shows the real total with the straw bedding and hay bonuses (e.g. **110%** with full bedding), instead of stopping at 100%.
+- **Straw not going down (being investigated):** the log now gets one line per in-game hour with the straw level before and after, to find out why it stays full.
+
 ## 1.14.0.0 – 2026-11-08 – Hay 105%
 
 Untested in game.
