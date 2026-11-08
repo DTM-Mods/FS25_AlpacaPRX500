@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.10.2.0 – 2026-11-08 – Ropes on the floor, fleece pallets
+
+Untested in game.
+
+- **Halter ropes** taken off the wall (they showed through to the other side); now a pile on the floor of the shearing room.
+- **Two fleece pallets** stand on the floor in the corridor by the shearing room, for looks only.
+
 ## 1.10.1.0 – 2026-11-08 – Shearing room fixes
 
 Untested in game.
