@@ -421,7 +421,7 @@
     </colorConfigurations>
 
     <!-- fleece pallet size switch: prompt at the control cabinet in the old milk room -->
-    <prxPalletSize triggerNode="palletSizeTrigger" />
+    <prxPalletSize cabinetNode="controlBox" />
 
     <solarPanels>
         <solarPanelsConfigurations>
@@ -586,6 +586,5 @@
         <i3dMapping id="stallLamp" node="0>26|22" />
         <i3dMapping id="stallLampLight" node="0>26|23" />
         <i3dMapping id="stallLampLightHigh" node="0>26|24" />
-        <i3dMapping id="palletSizeTrigger" node="0>26|25" />
     </i3dMappings>
 </placeable>

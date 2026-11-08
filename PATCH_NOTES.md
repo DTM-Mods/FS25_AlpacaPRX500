@@ -1,5 +1,11 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.16.2.0 – 2026-11-08 – Pallet switch prompt fixed
+
+Untested in game.
+
+- **Fixed: no prompt at the cabinet.** The switch no longer uses an invisible trigger box; the prompt now shows whenever you stand within about 1.5 m of the front of the cabinet.
+
 ## 1.16.0.0 – 2026-11-08 – Pallet size switch at the cabinet
 
 Untested in game.

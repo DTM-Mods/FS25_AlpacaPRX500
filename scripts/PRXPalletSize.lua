@@ -13,7 +13,6 @@ end
 
 function PRXPalletSize.registerFunctions(placeableType)
     SpecializationUtil.registerFunction(placeableType, "prxSetPalletSize", PRXPalletSize.setPalletSize)
-    SpecializationUtil.registerFunction(placeableType, "prxPalletSizeTriggerCallback", PRXPalletSize.triggerCallback)
 end
 
 function PRXPalletSize.registerEventListeners(placeableType)
@@ -26,7 +25,7 @@ end
 
 function PRXPalletSize.registerXMLPaths(schema, basePath)
     schema:setXMLSpecializationType("PRXPalletSize")
-    schema:register(XMLValueType.NODE_INDEX, basePath .. ".prxPalletSize#triggerNode", "Player trigger at the pallet size cabinet")
+    schema:register(XMLValueType.NODE_INDEX, basePath .. ".prxPalletSize#cabinetNode", "The control cabinet used as the switch")
     schema:setXMLSpecializationType()
 end
 
@@ -39,15 +38,54 @@ end
 function PRXPalletSize:onLoad(savegame)
     local spec = self[PRXPalletSize.SPEC]
     spec.big = true
-    spec.triggerNode = self.xmlFile:getValue("placeable.prxPalletSize#triggerNode", nil, self.components, self.i3dMappings)
-    if spec.triggerNode ~= nil and self.isClient then
-        addTrigger(spec.triggerNode, "prxPalletSizeTriggerCallback", self)
+    -- the switch is the control cabinet; show the prompt when the player stands within RANGE of SPOT (in front of it)
+    spec.cabinetNode = self.xmlFile:getValue("placeable.prxPalletSize#cabinetNode", nil, self.components, self.i3dMappings)
+    if spec.cabinetNode ~= nil and self.isClient then
         spec.activatable = PRXPalletSizeActivatable.new(self)
+        spec.inRange = false
+        local placeable = self
+        spec.updateable = {
+            timer = 0,
+            update = function(u, dt)
+                u.timer = u.timer + dt
+                if u.timer < 250 then
+                    return
+                end
+                u.timer = 0
+                PRXPalletSize.checkRange(placeable)
+            end
+        }
+        g_currentMission:addUpdateable(spec.updateable)
     end
-    -- TEMP diagnostics (switch prompt not showing)
-    local wx, wy, wz = 0, 0, 0
-    if spec.triggerNode ~= nil then wx, wy, wz = getWorldTranslation(spec.triggerNode) end
-    Logging.info("[Alpaca PRX500] pallet switch: trigger %s at %.1f %.1f %.1f, client %s", tostring(spec.triggerNode), wx, wy, wz, tostring(self.isClient))
+    Logging.info("[Alpaca PRX500] pallet size switch: cabinet %s", tostring(spec.cabinetNode))
+end
+
+PRXPalletSize.RANGE = 1.6
+PRXPalletSize.FRONT = 0.8 -- metres in front of the cabinet (its local +z)
+
+function PRXPalletSize.getSpot(self)
+    local spec = self[PRXPalletSize.SPEC]
+    return localToWorld(spec.cabinetNode, 0, 1.0, PRXPalletSize.FRONT)
+end
+
+function PRXPalletSize.checkRange(self)
+    local spec = self[PRXPalletSize.SPEC]
+    local player = g_localPlayer
+    local inRange = false
+    if player ~= nil and player.rootNode ~= nil and player.rootNode ~= 0 then
+        local px, py, pz = getWorldTranslation(player.rootNode)
+        local sx, sy, sz = PRXPalletSize.getSpot(self)
+        inRange = MathUtil.vector3Length(px - sx, (py - sy) * 0.5, pz - sz) < PRXPalletSize.RANGE
+    end
+    if inRange ~= spec.inRange then
+        spec.inRange = inRange
+        if inRange then
+            spec.activatable:updateText()
+            g_currentMission.activatableObjectsSystem:addActivatable(spec.activatable)
+        else
+            g_currentMission.activatableObjectsSystem:removeActivatable(spec.activatable)
+        end
+    end
 end
 
 function PRXPalletSize:onPostLoad(savegame)
@@ -59,8 +97,9 @@ function PRXPalletSize:onDelete()
     if spec == nil then
         return
     end
-    if spec.triggerNode ~= nil and self.isClient then
-        removeTrigger(spec.triggerNode)
+    if spec.updateable ~= nil then
+        g_currentMission:removeUpdateable(spec.updateable)
+        spec.updateable = nil
     end
     if spec.activatable ~= nil then
         g_currentMission.activatableObjectsSystem:removeActivatable(spec.activatable)
@@ -121,21 +160,6 @@ function PRXPalletSize:setPalletSize(big, noEventSend)
     end
 end
 
-function PRXPalletSize:triggerCallback(triggerId, otherId, onEnter, onLeave, onStay)
-    local spec = self[PRXPalletSize.SPEC]
-    local player = g_localPlayer
-    Logging.info("[Alpaca PRX500] pallet switch trigger: other %s (%s), player %s, enter %s leave %s", tostring(otherId), otherId ~= nil and getName(otherId) or "?", player ~= nil and tostring(player.rootNode) or "nil", tostring(onEnter), tostring(onLeave))
-    if spec.activatable == nil or player == nil or otherId ~= player.rootNode then
-        return
-    end
-    if onEnter then
-        spec.activatable:updateText()
-        g_currentMission.activatableObjectsSystem:addActivatable(spec.activatable)
-    elseif onLeave then
-        g_currentMission.activatableObjectsSystem:removeActivatable(spec.activatable)
-    end
-end
-
 local function text(key, fallback)
     if g_i18n:hasText(key, PRXPalletSize.MOD_NAME) then
         return g_i18n:getText(key, PRXPalletSize.MOD_NAME)
@@ -170,9 +194,8 @@ function PRXPalletSizeActivatable:run()
 end
 
 function PRXPalletSizeActivatable:getDistance(x, y, z)
-    local node = self.placeable[PRXPalletSize.SPEC].triggerNode
-    if node ~= nil then
-        local tx, ty, tz = getWorldTranslation(node)
+    if self.placeable[PRXPalletSize.SPEC].cabinetNode ~= nil then
+        local tx, ty, tz = PRXPalletSize.getSpot(self.placeable)
         return MathUtil.vector3Length(x - tx, y - ty, z - tz)
     end
     return math.huge
