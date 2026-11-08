@@ -420,6 +420,14 @@
         <colorConfiguration color="RUDOLFHOERMANN_DARKBEIGE"/>
     </colorConfigurations>
 
+    <!-- shop option: fleece pallet size (1 = DLC 2,000 l pallet, 2 = our 5,000 l pallet) -->
+    <prxFleecePallet>
+        <prxFleecePalletConfigurations>
+            <prxFleecePalletConfiguration name="$l10n_prx_fleecePallet2000" saveId="2000" />
+            <prxFleecePalletConfiguration name="$l10n_prx_fleecePallet5000" saveId="5000" isDefault="true" />
+        </prxFleecePalletConfigurations>
+    </prxFleecePallet>
+
     <solarPanels>
         <solarPanelsConfigurations>
             <solarPanelsConfiguration name="$l10n_ui_no" isActive="false">

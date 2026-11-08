@@ -13,6 +13,38 @@ end
 
 PRXPalletStack.RETRY_MS = 5000
 
+-- shop option "Fleece pallet size": 1 = 2,000 l (the DLC's own pallet), 2 = 5,000 l (our pallet, set in the barn xml)
+PRXPalletStack.MOD_NAME = g_currentModName
+
+function PRXPalletStack.initSpecialization()
+    if g_placeableConfigurationManager:getConfigurationDescByName("prxFleecePallet") == nil then
+        local title = "Fleece pallet size"
+        if g_i18n:hasText("prx_fleecePalletSize", PRXPalletStack.MOD_NAME) then
+            title = g_i18n:getText("prx_fleecePalletSize", PRXPalletStack.MOD_NAME)
+        end
+        g_placeableConfigurationManager:addConfigurationType("prxFleecePallet", title, "prxFleecePallet", PlaceableConfigurationItem)
+    end
+end
+
+function PRXPalletStack.registerXMLPaths(schema, basePath)
+    schema:setXMLSpecializationType("PRXPalletStack")
+    PlaceableConfigurationItem.registerXMLPaths(schema, basePath .. ".prxFleecePallet", basePath .. ".prxFleecePallet.prxFleecePalletConfigurations.prxFleecePalletConfiguration(?)")
+    schema:setXMLSpecializationType()
+end
+
+local function useDlcPallet(self)
+    local spec = self.spec_husbandryPallets
+    if spec == nil or spec.fillTypeIndexToPalletSpawner == nil then
+        return
+    end
+    for fillTypeIndex, spawner in pairs(spec.fillTypeIndexToPalletSpawner) do
+        local fillType = g_fillTypeManager:getFillTypeByIndex(fillTypeIndex)
+        if fillType ~= nil and fillType.palletFilename ~= nil then
+            spawner:loadPalletFromFilename(fillType.palletFilename, fillTypeIndex)
+        end
+    end
+end
+
 function PRXPalletStack.registerEventListeners(placeableType)
     SpecializationUtil.registerEventListener(placeableType, "onPostLoad", PRXPalletStack)
     SpecializationUtil.registerEventListener(placeableType, "onFinalizePlacement", PRXPalletStack)
@@ -83,6 +115,9 @@ function PRXPalletStack:updateOutput(superFunc, foodFactor, productionFactor, gl
 end
 
 function PRXPalletStack:onPostLoad(savegame)
+    if self.configurations ~= nil and self.configurations["prxFleecePallet"] == 1 then
+        useDlcPallet(self)
+    end
     local spec = self.spec_husbandryPallets
     if spec == nil or spec.fillTypeIndexToPalletSpawner == nil then
         return

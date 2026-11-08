@@ -1,5 +1,13 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.15.0.0 – 2026-11-08 – Pallet area forward, pallet size option
+
+Untested in game.
+
+- **Pallet area slid forward 0.8 m** toward the posts on the open side (same size, still 2 rows), so the back row is easier to reach. The white lines, spawn rows and pallet icon all moved.
+- **New shop option "Fleece pallet size": 2,000 l or 5,000 l** (default 5,000 l). 2,000 l uses the DLC's own fleece pallet.
+- Barns already placed keep 5,000 l (the default).
+
 ## 1.14.4.0 – 2026-11-08 – Smaller footprint behind the garage
 
 Untested in game.
