@@ -57,7 +57,6 @@ function PRXPalletSize:onLoad(savegame)
         }
         g_currentMission:addUpdateable(spec.updateable)
     end
-    Logging.info("[Alpaca PRX500] pallet size switch: cabinet %s", tostring(spec.cabinetNode))
 end
 
 PRXPalletSize.RANGE = 2.0
@@ -73,27 +72,18 @@ function PRXPalletSize.checkRange(self)
     local spec = self[PRXPalletSize.SPEC]
     local player = g_localPlayer
     local inRange = false
-    local dist = -1
     if player ~= nil and not player:getIsInVehicle() then
         local px, py, pz = player:getPosition()
         if px ~= nil then
             local sx, _, sz = PRXPalletSize.getSpot(self)
-            dist = MathUtil.vector2Length(px - sx, pz - sz)
-            inRange = dist < PRXPalletSize.RANGE
+            inRange = MathUtil.vector2Length(px - sx, pz - sz) < PRXPalletSize.RANGE
         end
-    end
-    -- TEMP diagnostics: distance to the cabinet every ~5 s while within 15 m
-    spec.logTimer = (spec.logTimer or 0) + 1
-    if dist >= 0 and dist < 15 and spec.logTimer >= 20 then
-        spec.logTimer = 0
-        Logging.info("[Alpaca PRX500] pallet switch: player %.1f m from cabinet (in range %s)", dist, tostring(inRange))
     end
     if inRange ~= spec.inRange then
         spec.inRange = inRange
         if inRange then
             spec.activatable:updateText()
             g_currentMission.activatableObjectsSystem:addActivatable(spec.activatable)
-            Logging.info("[Alpaca PRX500] pallet switch: prompt added")
         else
             g_currentMission.activatableObjectsSystem:removeActivatable(spec.activatable)
         end
@@ -205,7 +195,6 @@ function PRXPalletSizeActivatable:registerCustomInput(inputContext)
         self:updateText()
         g_inputBinding:setActionEventText(self.actionEventId, self.activateText)
     end
-    Logging.info("[Alpaca PRX500] pallet switch: key registered %s", tostring(self.actionEventId))
 end
 
 function PRXPalletSizeActivatable:removeCustomInput(inputContext)
@@ -237,7 +226,6 @@ function PRXPalletSizeActivatable:run()
     local options = {text("prx_pallet2000", "2,000 l"), text("prx_pallet5000", "5,000 l")}
     local function callback(index)
         if index == 1 or index == 2 then
-            Logging.info("[Alpaca PRX500] pallet switch: chose %s", options[index])
             placeable:prxSetPalletSize(index == 2)
             self:updateText()
             if self.actionEventId ~= nil then

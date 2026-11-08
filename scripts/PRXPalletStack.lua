@@ -98,7 +98,4 @@ function PRXPalletStack:onPostLoad(savegame)
             end
         end
     end
-    if count > 0 then
-        Logging.info("[Alpaca PRX500] Fleece pallet spawn places set to stack up to %.1f m (%d places)", PRXPalletStack.MAX_HEIGHT, count)
-    end
 end

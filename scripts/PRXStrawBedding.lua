@@ -160,9 +160,6 @@ function PRXStrawBedding:updateOutput(superFunc, foodFactor, productionFactor, g
             local current = storage:getFillLevel(spec.fillType) or 0
             storage:setFillLevel(current - math.min(amount, current), spec.fillType)
         end
-        -- TEMP diagnostics (straw not going down in test): one line per in-game hour
-        Logging.info("[Alpaca PRX500] straw hourly: before %.1f, after %.1f, wanted %.2f (l/day %.0f, timeAdjustment %s)",
-            fillLevel, self:getHusbandryFillLevel(spec.fillType) or -1, amount, spec.litersPerDay, tostring(adj))
         PRXStrawBedding.updateStrawPlane(self)
     end
 

@@ -1,5 +1,11 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.17.2.0 – 2026-11-08 – Release build
+
+Tested in game (single player).
+
+- Test log lines removed (hourly straw line, pallet switch lines, pallet spawn line). The log only gets the one-line food summary at map load and real warnings.
+
 ## 1.17.1.0 – 2026-11-08 – Pallet menu on R
 
 - The pallet size menu at the cabinet opens with **R** (the game's "activate object" key) instead of left click.
