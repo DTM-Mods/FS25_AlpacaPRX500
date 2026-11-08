@@ -1,5 +1,11 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.15.1.0 – 2026-11-08 – 5,000 l pallet weight
+
+Untested in game.
+
+- **5,000 l fleece pallets weigh at most 400 kg** when full (was 1,500 kg), the same as the DLC's 2,000 l pallet.
+
 ## 1.15.0.0 – 2026-11-08 – Pallet area forward, pallet size option
 
 Untested in game.
