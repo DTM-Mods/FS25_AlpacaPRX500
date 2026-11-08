@@ -44,6 +44,10 @@ function PRXPalletSize:onLoad(savegame)
         addTrigger(spec.triggerNode, "prxPalletSizeTriggerCallback", self)
         spec.activatable = PRXPalletSizeActivatable.new(self)
     end
+    -- TEMP diagnostics (switch prompt not showing)
+    local wx, wy, wz = 0, 0, 0
+    if spec.triggerNode ~= nil then wx, wy, wz = getWorldTranslation(spec.triggerNode) end
+    Logging.info("[Alpaca PRX500] pallet switch: trigger %s at %.1f %.1f %.1f, client %s", tostring(spec.triggerNode), wx, wy, wz, tostring(self.isClient))
 end
 
 function PRXPalletSize:onPostLoad(savegame)
@@ -120,6 +124,7 @@ end
 function PRXPalletSize:triggerCallback(triggerId, otherId, onEnter, onLeave, onStay)
     local spec = self[PRXPalletSize.SPEC]
     local player = g_localPlayer
+    Logging.info("[Alpaca PRX500] pallet switch trigger: other %s (%s), player %s, enter %s leave %s", tostring(otherId), otherId ~= nil and getName(otherId) or "?", player ~= nil and tostring(player.rootNode) or "nil", tostring(onEnter), tostring(onLeave))
     if spec.activatable == nil or player == nil or otherId ~= player.rootNode then
         return
     end
