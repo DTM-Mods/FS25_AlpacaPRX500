@@ -275,6 +275,7 @@
         <dynamicallyLoadedPart node="0|2" linkNode="fleeceBags1" filename="$data/objects/pallets/woolPallet/woolPallet.i3d" />
         <dynamicallyLoadedPart node="0" linkNode="fleecePallet2" filename="$data/maps/mapAS/textures/props/pallet01.i3d" />
         <dynamicallyLoadedPart node="0|2" linkNode="fleeceBags2" filename="$data/objects/pallets/woolPallet/woolPallet.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressWagonWheel" filename="$data/maps/mapEU/textures/props/cartWheel.i3d" />
         <dynamicallyLoadedPart node="0" linkNode="palletLine1" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
         <dynamicallyLoadedPart node="0" linkNode="palletLine2" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
         <dynamicallyLoadedPart node="0" linkNode="palletLine3" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
@@ -567,5 +568,6 @@
         <i3dMapping id="fleeceBags1" node="0>26|16" />
         <i3dMapping id="fleecePallet2" node="0>26|17" />
         <i3dMapping id="fleeceBags2" node="0>26|18" />
+        <i3dMapping id="dressWagonWheel" node="0>26|19" />
     </i3dMappings>
 </placeable>

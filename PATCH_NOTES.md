@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.10.3.0 – 2026-11-08 – Wagon wheel, fleece pallet by the ropes
+
+Untested in game.
+
+- **Old wagon wheel** hangs flat on the back wall of the shearing room.
+- **One fleece pallet** moved into the shearing room, right up against the rope pile. The other stays in the corridor.
+
 ## 1.10.2.0 – 2026-11-08 – Ropes on the floor, fleece pallets
 
 Untested in game.
