@@ -1,5 +1,20 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.10.0.0 – 2026-11-08 – Shearing room and pallet bays
+
+Untested in game.
+
+- **Shearing room** (the old milking stall) is furnished:
+  - a workbench with tools and a blade
+  - a wooden table with tools, and a stool
+  - halter ropes hanging on the back wall
+  - The middle stays clear for shearing.
+- **Pallet area** in the garage:
+  - White painted lines frame it, in 3 bays.
+  - The game's floating pallet icon hangs over it.
+- **Pallet spawn height** lowered to just above the garage floor (they were set 0.3 m up).
+- All new items are base-game models: no extra download size, and they work on every map.
+
 ## 1.9.3.0 – 2026-11-08 – Meadow same as grass
 
 Untested in game.

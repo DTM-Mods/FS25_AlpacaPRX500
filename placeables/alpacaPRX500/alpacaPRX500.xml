@@ -74,6 +74,7 @@
 
     <triggerMarkers>
         <triggerMarker node="markerFood"         filename="$data/shared/assets/marker/markerIconFood.i3d" />
+        <triggerMarker node="markerPallets"      filename="$data/shared/assets/marker/markerIconPallet.i3d" />
         <triggerMarker node="markerAnimals"      filename="$data/shared/assets/marker/markerIconAnimals.i3d" />
     </triggerMarkers>
 
@@ -261,6 +262,21 @@
         <dynamicallyLoadedPart node="0|5|2" linkNode="garageBody" filename="$data/placeables/rudolfHormann/garageWoodRoof/garageWoodRoof.i3d" />
         <dynamicallyLoadedPart node="0|6" linkNode="garageBody" filename="$data/placeables/rudolfHormann/garageWoodRoof/garageWoodRoof.i3d" />
         <dynamicallyLoadedPart node="0|5|1" linkNode="garageSolarLink" filename="$data/placeables/rudolfHormann/garageWoodRoof/garageWoodRoof.i3d" />
+        <!-- shearing room props + pallet bay lines (base-game models) -->
+        <dynamicallyLoadedPart node="0" linkNode="dressWorkbench" filename="$data/maps/mapEU/textures/props/workBench01.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressTable" filename="$data/maps/mapEU/textures/props/woodenTable.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressRopeA" filename="$data/maps/mapAS/textures/props/rope03.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressRopeB" filename="$data/maps/mapAS/textures/props/rope02.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressToolsA" filename="$data/maps/mapAS/textures/props/woodTools/woodTools01.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressToolsB" filename="$data/maps/mapAS/textures/props/metalTools/metalTools03.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressToolsC" filename="$data/maps/mapAS/textures/props/woodMetalTools/woodMetalTools02.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressStool" filename="$data/maps/mapEU/textures/props/stools.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="palletLine1" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="palletLine2" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="palletLine3" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="palletLine4" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="palletLine5" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="palletLine6" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
     </dynamicallyLoadedParts>
 
     <lights>
@@ -527,5 +543,21 @@
         <i3dMapping id="garageLink" node="0>25" />
         <i3dMapping id="garageBody" node="0>25|0" />
         <i3dMapping id="garageSolarLink" node="0>25|1" />
+        <i3dMapping id="dressing" node="0>26" />
+        <i3dMapping id="dressWorkbench" node="0>26|0" />
+        <i3dMapping id="dressTable" node="0>26|1" />
+        <i3dMapping id="dressRopeA" node="0>26|2" />
+        <i3dMapping id="dressRopeB" node="0>26|3" />
+        <i3dMapping id="dressToolsA" node="0>26|4" />
+        <i3dMapping id="dressToolsB" node="0>26|5" />
+        <i3dMapping id="dressToolsC" node="0>26|6" />
+        <i3dMapping id="dressStool" node="0>26|7" />
+        <i3dMapping id="palletLine1" node="0>26|8" />
+        <i3dMapping id="palletLine2" node="0>26|9" />
+        <i3dMapping id="palletLine3" node="0>26|10" />
+        <i3dMapping id="palletLine4" node="0>26|11" />
+        <i3dMapping id="palletLine5" node="0>26|12" />
+        <i3dMapping id="palletLine6" node="0>26|13" />
+        <i3dMapping id="markerPallets" node="0>26|14" />
     </i3dMappings>
 </placeable>
