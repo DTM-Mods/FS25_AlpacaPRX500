@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>PropaineX</author>
-    <version>1.15.1.0</version>
+    <version>1.16.0.0</version>
     <title>
         <en>Alpaca PRX500</en>
     </title>
@@ -39,6 +39,7 @@ Uses the base-game Hörmann models, no extra textures.]]></en>
         <specialization name="prxStrawBedding" className="PRXStrawBedding" filename="scripts/PRXStrawBedding.lua" />
         <specialization name="prxPalletStack" className="PRXPalletStack" filename="scripts/PRXPalletStack.lua" />
         <specialization name="prxHayBonus" className="PRXHayBonus" filename="scripts/PRXHayBonus.lua" />
+        <specialization name="prxPalletSize" className="PRXPalletSize" filename="scripts/PRXPalletSize.lua" />
     </placeableSpecializations>
     <placeableTypes>
         <type name="alpacaPRX500" parent="pdlc_beansAndAlpacasPack.alpacaHusbandry" className="Placeable" filename="$dataS/scripts/placeables/Placeable.lua">
@@ -46,6 +47,7 @@ Uses the base-game Hörmann models, no extra textures.]]></en>
             <specialization name="prxStrawBedding" />
             <specialization name="prxPalletStack" />
             <specialization name="prxHayBonus" />
+            <specialization name="prxPalletSize" />
         </type>
     </placeableTypes>
     <storeItems>
@@ -54,9 +56,8 @@ Uses the base-game Hörmann models, no extra textures.]]></en>
     </storeItems>
     <l10n>
         <text name="prx_alpacaPRX500"><en>Alpaca PRX500</en></text>
-        <text name="prx_fleecePalletSize"><en>Fleece pallet size</en></text>
-        <text name="prx_fleecePallet2000"><en>2,000 l</en></text>
-        <text name="prx_fleecePallet5000"><en>5,000 l</en></text>
+        <text name="prx_palletSizeTo2000"><en>Fleece pallets 5,000 l: switch to 2,000 l</en></text>
+        <text name="prx_palletSizeTo5000"><en>Fleece pallets 2,000 l: switch to 5,000 l</en></text>
         <text name="prx_fleecePallet"><en>Alpaca Fleece</en></text>
         <text name="prx_strawBedding"><en>Straw Bedding</en></text>
         <text name="prx_function_alpacaPen"><en>Animal pen for alpacas (holds at least 100)</en></text>

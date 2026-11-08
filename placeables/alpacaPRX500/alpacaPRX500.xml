@@ -420,13 +420,8 @@
         <colorConfiguration color="RUDOLFHOERMANN_DARKBEIGE"/>
     </colorConfigurations>
 
-    <!-- shop option: fleece pallet size (1 = DLC 2,000 l pallet, 2 = our 5,000 l pallet) -->
-    <prxFleecePallet>
-        <prxFleecePalletConfigurations>
-            <prxFleecePalletConfiguration name="$l10n_prx_fleecePallet2000" saveId="2000" />
-            <prxFleecePalletConfiguration name="$l10n_prx_fleecePallet5000" saveId="5000" isDefault="true" />
-        </prxFleecePalletConfigurations>
-    </prxFleecePallet>
+    <!-- fleece pallet size switch: prompt at the control cabinet in the old milk room -->
+    <prxPalletSize triggerNode="palletSizeTrigger" />
 
     <solarPanels>
         <solarPanelsConfigurations>
@@ -591,5 +586,6 @@
         <i3dMapping id="stallLamp" node="0>26|22" />
         <i3dMapping id="stallLampLight" node="0>26|23" />
         <i3dMapping id="stallLampLightHigh" node="0>26|24" />
+        <i3dMapping id="palletSizeTrigger" node="0>26|25" />
     </i3dMappings>
 </placeable>

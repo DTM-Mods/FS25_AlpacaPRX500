@@ -1,5 +1,13 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.16.0.0 – 2026-11-08 – Pallet size switch at the cabinet
+
+Untested in game.
+
+- **Fleece pallet size is now switched at the control cabinet** in the old milk-cooler room: stand in front of it and press the activate key to flip between **5,000 l and 2,000 l**. New pallets spawn at the chosen size.
+- Works on barns already placed; the setting is saved with the barn and shared in multiplayer. Default 5,000 l.
+- The shop option from 1.15.0.0 is removed (replaced by the switch).
+
 ## 1.15.1.0 – 2026-11-08 – 5,000 l pallet weight
 
 Untested in game.
