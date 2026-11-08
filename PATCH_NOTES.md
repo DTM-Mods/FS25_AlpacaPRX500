@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.16.3.0 – 2026-11-08 – Pallet switch prompt, second fix
+
+Untested in game.
+
+- The switch now uses the game's own player position and shows the prompt within 2 m of the cabinet (any side).
+- Temporary log lines show the distance to the cabinet, to confirm it in game.
+
 ## 1.16.2.0 – 2026-11-08 – Pallet switch prompt fixed
 
 Untested in game.

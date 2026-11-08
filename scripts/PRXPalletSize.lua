@@ -60,28 +60,40 @@ function PRXPalletSize:onLoad(savegame)
     Logging.info("[Alpaca PRX500] pallet size switch: cabinet %s", tostring(spec.cabinetNode))
 end
 
-PRXPalletSize.RANGE = 1.6
+PRXPalletSize.RANGE = 2.0
 PRXPalletSize.FRONT = 0.8 -- metres in front of the cabinet (its local +z)
 
 function PRXPalletSize.getSpot(self)
     local spec = self[PRXPalletSize.SPEC]
-    return localToWorld(spec.cabinetNode, 0, 1.0, PRXPalletSize.FRONT)
+    local x, y, z = getWorldTranslation(spec.cabinetNode)
+    return x, y + 1.0, z
 end
 
 function PRXPalletSize.checkRange(self)
     local spec = self[PRXPalletSize.SPEC]
     local player = g_localPlayer
     local inRange = false
-    if player ~= nil and player.rootNode ~= nil and player.rootNode ~= 0 then
-        local px, py, pz = getWorldTranslation(player.rootNode)
-        local sx, sy, sz = PRXPalletSize.getSpot(self)
-        inRange = MathUtil.vector3Length(px - sx, (py - sy) * 0.5, pz - sz) < PRXPalletSize.RANGE
+    local dist = -1
+    if player ~= nil and not player:getIsInVehicle() then
+        local px, py, pz = player:getPosition()
+        if px ~= nil then
+            local sx, _, sz = PRXPalletSize.getSpot(self)
+            dist = MathUtil.vector2Length(px - sx, pz - sz)
+            inRange = dist < PRXPalletSize.RANGE
+        end
+    end
+    -- TEMP diagnostics: distance to the cabinet every ~5 s while within 15 m
+    spec.logTimer = (spec.logTimer or 0) + 1
+    if dist >= 0 and dist < 15 and spec.logTimer >= 20 then
+        spec.logTimer = 0
+        Logging.info("[Alpaca PRX500] pallet switch: player %.1f m from cabinet (in range %s)", dist, tostring(inRange))
     end
     if inRange ~= spec.inRange then
         spec.inRange = inRange
         if inRange then
             spec.activatable:updateText()
             g_currentMission.activatableObjectsSystem:addActivatable(spec.activatable)
+            Logging.info("[Alpaca PRX500] pallet switch: prompt added")
         else
             g_currentMission.activatableObjectsSystem:removeActivatable(spec.activatable)
         end
