@@ -1,5 +1,13 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.14.0.0 – 2026-11-08 – Hay 105%
+
+Untested in game.
+
+- **Hay is worth 5% more** than the sheep's hay value: shown as **Hay (105%)** on the barn's info screen.
+- How it works: the part of each hour's food that was hay adds up to **+5% fleece output** (all hay = +5%, half hay = +2.5%).
+- Done as an output bonus (like the straw bedding) so the barn stays safe in multiplayer.
+
 ## 1.13.0.0 – 2026-11-08 – 5,000 l fleece pallets
 
 Untested in game.

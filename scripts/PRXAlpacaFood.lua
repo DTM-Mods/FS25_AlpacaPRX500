@@ -46,6 +46,8 @@ function PRXAlpacaFood.apply()
     end
     alpacaGrass = alpacaGrass or alpacaHay
     alpacaHay = alpacaHay or alpacaGrass
+    -- remember the hay group for PRXHayBonus
+    PRXAlpacaFood.hayGroup = alpacaHay
     if alpacaGrass == nil then
         Logging.warning("[Alpaca PRX500] Alpaca food list has no grass or hay group; food not changed")
         return
