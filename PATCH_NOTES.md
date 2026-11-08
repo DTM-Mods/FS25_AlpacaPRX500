@@ -1,5 +1,10 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.16.7.0 – 2026-11-08 – One press, one flip
+
+- **Pallet size switch works in game** (prompt shows at the cabinet, key flips it).
+- Fixed: one key press could flip it twice (back to where it started). Now one press = one flip.
+
 ## 1.16.6.0 – 2026-11-08 – Marker at the pallet switch
 
 Untested in game.

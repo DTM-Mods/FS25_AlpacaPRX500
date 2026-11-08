@@ -230,6 +230,12 @@ function PRXPalletSizeActivatable:getIsActivatable()
 end
 
 function PRXPalletSizeActivatable:run()
+    -- one press = one flip: the game can deliver the same key press twice (own key + prompt key)
+    local now = g_time or 0
+    if self.lastRun ~= nil and now - self.lastRun < 600 then
+        return
+    end
+    self.lastRun = now
     local big = self.placeable[PRXPalletSize.SPEC].big
     Logging.info("[Alpaca PRX500] pallet switch pressed: now %s", big and "2,000 l" or "5,000 l")
     self.placeable:prxSetPalletSize(not big)
