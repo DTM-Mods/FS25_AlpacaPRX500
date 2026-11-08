@@ -195,10 +195,10 @@ function PRXPalletSizeActivatable:updateText()
     self.activateText = string.format(text("prx_palletSizePrompt", "Fleece pallet size (now %s)"), big and "5,000 l" or "2,000 l")
 end
 
--- register the key the same way the barn's doors do (AnimatedObjectActivatable): ACTIVATE_HANDTOOL, very high priority
+-- register the key like the barn doors do (AnimatedObjectActivatable), but on ACTIVATE_OBJECT (R by default)
 function PRXPalletSizeActivatable:registerCustomInput(inputContext)
     local _
-    _, self.actionEventId = g_inputBinding:registerActionEvent(InputAction.ACTIVATE_HANDTOOL, self, self.onInputToggle, false, true, false, true)
+    _, self.actionEventId = g_inputBinding:registerActionEvent(InputAction.ACTIVATE_OBJECT, self, self.onInputToggle, false, true, false, true)
     if self.actionEventId ~= nil then
         g_inputBinding:setActionEventTextPriority(self.actionEventId, GS_PRIO_VERY_HIGH)
         g_inputBinding:setActionEventTextVisibility(self.actionEventId, true)

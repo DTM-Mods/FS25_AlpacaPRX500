@@ -1,5 +1,9 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.17.1.0 – 2026-11-08 – Pallet menu on R
+
+- The pallet size menu at the cabinet opens with **R** (the game's "activate object" key) instead of left click.
+
 ## 1.17.0.0 – 2026-11-08 – Pallet size menu
 
 Untested in game.
