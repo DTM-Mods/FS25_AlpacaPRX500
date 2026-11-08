@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.14.2.0 – 2026-11-08 – Straw bedding goes down
+
+Untested in game.
+
+- **Fixed: straw bedding never went down.** The straw was taken through the barn's loading point, which was removed together with milk and slurry, so nothing was ever taken. It's now taken straight from the barn's storage: about 91 l per in-game hour for 113 alpacas (2,180 l a day).
+- The hourly straw line stays in the log for now, to confirm it in game.
+
 ## 1.14.1.0 – 2026-11-08 – Productivity shows bonuses; straw check
 
 Untested in game.
