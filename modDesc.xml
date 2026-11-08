@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>PropaineX</author>
-    <version>1.16.7.0</version>
+    <version>1.17.0.0</version>
     <title>
         <en>Alpaca PRX500</en>
     </title>
@@ -56,8 +56,11 @@ Uses the base-game Hörmann models, no extra textures.]]></en>
     </storeItems>
     <l10n>
         <text name="prx_alpacaPRX500"><en>Alpaca PRX500</en></text>
-        <text name="prx_palletSizeTo2000"><en>Fleece pallets 5,000 l: switch to 2,000 l</en></text>
-        <text name="prx_palletSizeTo5000"><en>Fleece pallets 2,000 l: switch to 5,000 l</en></text>
+        <text name="prx_palletSizePrompt"><en>Fleece pallet size (now %s)</en></text>
+        <text name="prx_palletSizeTitle"><en>Fleece pallet size</en></text>
+        <text name="prx_palletSizeNow"><en>Now: %s. New fleece pallets spawn at the size you choose.</en></text>
+        <text name="prx_pallet2000"><en>2,000 l</en></text>
+        <text name="prx_pallet5000"><en>5,000 l</en></text>
         <text name="prx_fleecePallet"><en>Alpaca Fleece</en></text>
         <text name="prx_strawBedding"><en>Straw Bedding</en></text>
         <text name="prx_function_alpacaPen"><en>Animal pen for alpacas (holds at least 100)</en></text>

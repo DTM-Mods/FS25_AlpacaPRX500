@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.17.0.0 – 2026-11-08 – Pallet size menu
+
+Untested in game.
+
+- The cabinet prompt now shows the current setting: **"Fleece pallet size (now 5,000 l)"**.
+- Pressing the key opens a **small menu** (the game's own choice window) where you pick **2,000 l or 5,000 l**.
+
 ## 1.16.7.0 – 2026-11-08 – One press, one flip
 
 - **Pallet size switch works in game** (prompt shows at the cabinet, key flips it).

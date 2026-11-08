@@ -192,11 +192,7 @@ end
 
 function PRXPalletSizeActivatable:updateText()
     local big = self.placeable[PRXPalletSize.SPEC].big
-    if big then
-        self.activateText = text("prx_palletSizeTo2000", "Fleece pallets 5,000 l: switch to 2,000 l")
-    else
-        self.activateText = text("prx_palletSizeTo5000", "Fleece pallets 2,000 l: switch to 5,000 l")
-    end
+    self.activateText = string.format(text("prx_palletSizePrompt", "Fleece pallet size (now %s)"), big and "5,000 l" or "2,000 l")
 end
 
 -- register the key the same way the barn's doors do (AnimatedObjectActivatable): ACTIVATE_HANDTOOL, very high priority
@@ -236,10 +232,21 @@ function PRXPalletSizeActivatable:run()
         return
     end
     self.lastRun = now
-    local big = self.placeable[PRXPalletSize.SPEC].big
-    Logging.info("[Alpaca PRX500] pallet switch pressed: now %s", big and "2,000 l" or "5,000 l")
-    self.placeable:prxSetPalletSize(not big)
-    self:updateText()
+    local placeable = self.placeable
+    local big = placeable[PRXPalletSize.SPEC].big
+    local options = {text("prx_pallet2000", "2,000 l"), text("prx_pallet5000", "5,000 l")}
+    local function callback(index)
+        if index == 1 or index == 2 then
+            Logging.info("[Alpaca PRX500] pallet switch: chose %s", options[index])
+            placeable:prxSetPalletSize(index == 2)
+            self:updateText()
+            if self.actionEventId ~= nil then
+                g_inputBinding:setActionEventText(self.actionEventId, self.activateText)
+            end
+        end
+    end
+    OptionDialog.show(callback, text("prx_palletSizeTitle", "Fleece pallet size"),
+        string.format(text("prx_palletSizeNow", "Now: %s. New fleece pallets spawn at the size you choose."), big and "5,000 l" or "2,000 l"), options)
 end
 
 function PRXPalletSizeActivatable:getDistance(x, y, z)
