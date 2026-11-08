@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.14.3.0 – 2026-11-08 – Waiting fleece comes out
+
+Untested in game.
+
+- **Fixed: fleece that didn't fit at shearing never came out.** It waits in the barn ("not enough room" warning), but the game only retried the spawn when the animals make fleece every hour, which alpacas don't. The barn now retries **every in-game hour** while fleece is waiting, so once you clear the pallets it spawns within the hour.
+- Nothing was lost: fleece already waiting (e.g. 10,335 l in the test save) comes out after the update.
+
 ## 1.14.2.0 – 2026-11-08 – Straw bedding goes down
 
 Untested in game.

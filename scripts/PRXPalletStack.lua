@@ -15,6 +15,26 @@ function PRXPalletStack.registerEventListeners(placeableType)
     SpecializationUtil.registerEventListener(placeableType, "onPostLoad", PRXPalletStack)
 end
 
+function PRXPalletStack.registerOverwrittenFunctions(placeableType)
+    SpecializationUtil.registerOverwrittenFunction(placeableType, "updateOutput", PRXPalletStack.updateOutput)
+end
+
+-- Fleece that couldn't be spawned (no room at shearing) waits in pendingLiters. The game only retries the spawn
+-- in the hourly output step when the animals make fleece per hour (litersPerHour > 0), which alpacas don't:
+-- their fleece comes from shearing. So retry every in-game hour ourselves while fleece is waiting.
+function PRXPalletStack:updateOutput(superFunc, foodFactor, productionFactor, globalProductionFactor)
+    superFunc(self, foodFactor, productionFactor, globalProductionFactor)
+    local spec = self.spec_husbandryPallets
+    if self.isServer and spec ~= nil and spec.pendingLiters ~= nil then
+        for _, liters in pairs(spec.pendingLiters) do
+            if liters > 5 then
+                self:updatePallets()
+                break
+            end
+        end
+    end
+end
+
 function PRXPalletStack:onPostLoad(savegame)
     local spec = self.spec_husbandryPallets
     if spec == nil or spec.fillTypeIndexToPalletSpawner == nil then
