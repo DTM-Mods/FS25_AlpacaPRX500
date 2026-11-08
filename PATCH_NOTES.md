@@ -1,5 +1,11 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.16.4.0 – 2026-11-08 – Pallet switch prompt, third fix
+
+Untested in game.
+
+- The cabinet prompt now tells the game it can be used (the game's own prompts do the same), so it should appear and respond to the activate key.
+
 ## 1.16.3.0 – 2026-11-08 – Pallet switch prompt, second fix
 
 Untested in game.

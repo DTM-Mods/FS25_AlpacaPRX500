@@ -199,8 +199,14 @@ function PRXPalletSizeActivatable:updateText()
     end
 end
 
+function PRXPalletSizeActivatable:getIsActivatable()
+    local player = g_localPlayer
+    return player ~= nil and not player:getIsInVehicle()
+end
+
 function PRXPalletSizeActivatable:run()
     local big = self.placeable[PRXPalletSize.SPEC].big
+    Logging.info("[Alpaca PRX500] pallet switch pressed: now %s", big and "2,000 l" or "5,000 l")
     self.placeable:prxSetPalletSize(not big)
     self:updateText()
 end
