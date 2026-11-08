@@ -276,6 +276,8 @@
         <dynamicallyLoadedPart node="0" linkNode="fleecePallet2" filename="$data/maps/mapAS/textures/props/pallet01.i3d" />
         <dynamicallyLoadedPart node="0|2" linkNode="fleeceBags2" filename="$data/objects/pallets/woolPallet/woolPallet.i3d" />
         <dynamicallyLoadedPart node="0" linkNode="dressWagonWheel" filename="$data/maps/mapEU/textures/props/cartWheel.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressShelf" filename="$data/maps/mapEU/textures/props/wallShelf.i3d" />
+        <dynamicallyLoadedPart node="0" linkNode="dressFlowerBox" filename="$data/maps/mapEU/textures/props/flowerGeranium.i3d" />
         <dynamicallyLoadedPart node="0" linkNode="palletLine1" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
         <dynamicallyLoadedPart node="0" linkNode="palletLine2" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
         <dynamicallyLoadedPart node="0" linkNode="palletLine3" filename="$data/maps/mapEU/textures/props/parkingLines.i3d" />
@@ -286,6 +288,8 @@
 
     <lights>
         <group weatherRequiredFlags="NIGHT" />
+        <!-- group 2: shearing room ceiling lamp, no time/weather condition = always on -->
+        <group />
 
         <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="lightNode01" groupIndex="1" color="1 0 0" />
         <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="lightNode02" groupIndex="1" color="1 0 0" />
@@ -297,13 +301,16 @@
         <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="lightNode08" groupIndex="1" color="1 0 0" />
         <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="tubeLight01" groupIndex="1"/>
         <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="tubeLight02" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/light150W.xml"          linkNode="stallLamp" groupIndex="2" />
 
         <realLights>
             <low>
                 <light node="realLightsLow" groupIndex="1"/>
+                <light node="stallLampLight" groupIndex="2"/>
             </low>
             <high>
                 <light node="realLightsHigh" groupIndex="1"/>
+                <light node="stallLampLightHigh" groupIndex="2"/>
             </high>
         </realLights>
     </lights>
@@ -569,5 +576,10 @@
         <i3dMapping id="fleecePallet2" node="0>26|17" />
         <i3dMapping id="fleeceBags2" node="0>26|18" />
         <i3dMapping id="dressWagonWheel" node="0>26|19" />
+        <i3dMapping id="dressShelf" node="0>26|20" />
+        <i3dMapping id="dressFlowerBox" node="0>26|21" />
+        <i3dMapping id="stallLamp" node="0>26|22" />
+        <i3dMapping id="stallLampLight" node="0>26|23" />
+        <i3dMapping id="stallLampLightHigh" node="0>26|24" />
     </i3dMappings>
 </placeable>

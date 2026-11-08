@@ -1,5 +1,13 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.11.0.0 – 2026-11-08 – Shelf, flowers and ceiling light
+
+Untested in game.
+
+- **Wall shelf** on the back wall of the shearing room, left of the wagon wheel.
+- **Box of red geraniums** on the shelf.
+- **Small ceiling lamp** in the shearing room, **always on** (day and night).
+
 ## 1.10.4.0 – 2026-11-08 – Fleece pallet moved
 
 Untested in game.
