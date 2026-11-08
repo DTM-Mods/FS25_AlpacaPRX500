@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="113">
+    <author>PropaineX</author>
+    <version>1.9.1.0</version>
+    <title>
+        <en>Alpaca PRX500</en>
+    </title>
+    <description>
+        <en><![CDATA[Alpaca PRX500: a large alpaca barn with its own covered fleece pallet shed.
+
+A place to keep your alpacas, with a pasture you can customize.
+- Holds at least 100 alpacas
+- Shearing spot in the old milking stall
+- Fleece comes out as pallets inside the Open Wooden Garage, open side facing the barn
+- Food: grass and hay, the same as sheep on any map (including alfalfa, clover and map crops), 360,000 l
+- Straw bedding: 120,000 l, used up per day like pigs; production 110% when full down to 85% when empty (no manure, no slurry)
+- Automatic water supply (you pay for the water used)
+- No milk production
+- Optional solar panels on the barn and the garage (one option)
+- 13 colour choices
+
+Price: $268,200 | Upkeep: $268/day
+Shop: Animal Pens > Alpacas
+
+Requires the Beans & Alpacas DLC.
+Uses the base-game Hörmann models, no extra textures.]]></en>
+    </description>
+    <iconFilename>icon_AlpacaPRX500.dds</iconFilename>
+    <multiplayer supported="true" />
+    <dependencies>
+        <dependency>pdlc_beansAndAlpacasPack</dependency>
+    </dependencies>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/PRXAlpacaFood.lua" />
+    </extraSourceFiles>
+    <placeableSpecializations>
+        <specialization name="prxRandomCapacity" className="PRXRandomCapacity" filename="scripts/PRXRandomCapacity.lua" />
+        <specialization name="prxStrawBedding" className="PRXStrawBedding" filename="scripts/PRXStrawBedding.lua" />
+    </placeableSpecializations>
+    <placeableTypes>
+        <type name="alpacaPRX500" parent="pdlc_beansAndAlpacasPack.alpacaHusbandry" className="Placeable" filename="$dataS/scripts/placeables/Placeable.lua">
+            <specialization name="prxRandomCapacity" />
+            <specialization name="prxStrawBedding" />
+        </type>
+    </placeableTypes>
+    <storeItems>
+        <storeItem xmlFilename="placeables/alpacaPRX500/alpacaPRX500.xml" />
+    </storeItems>
+    <l10n>
+        <text name="prx_alpacaPRX500"><en>Alpaca PRX500</en></text>
+        <text name="prx_strawBedding"><en>Straw Bedding</en></text>
+        <text name="prx_function_alpacaPen"><en>Animal pen for alpacas (holds at least 100)</en></text>
+    </l10n>
+</modDesc>
