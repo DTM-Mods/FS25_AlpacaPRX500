@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.10.1.0 – 2026-11-08 – Shearing room fixes
+
+Untested in game.
+
+- **Halter ropes** no longer go through the back wall; moved out to hang in front of it.
+- **Broom** taken off the workbench; it now stands on the floor in the corner, leaning against the back wall.
+
 ## 1.10.0.0 – 2026-11-08 – Shearing room and pallet bays
 
 Untested in game.
