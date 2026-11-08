@@ -1,5 +1,12 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.9.3.0 – 2026-11-08 – Meadow same as grass
+
+Untested in game.
+
+- **Meadow** (pasture grazing) now counts the same as grass: 60% instead of 100%, matching whatever grass is on the map.
+- Like the grass/hay food change, this applies to every alpaca barn while this mod is loaded, because the food list belongs to the animal.
+
 ## 1.9.2.0 – 2026-11-08 – Pasture fix and shop picture
 
 Untested in game.

@@ -3,6 +3,7 @@
 -- For every SHEEP food group that holds grass (GRASS_WINDROW) its fill types go into the ALPACA grass group;
 -- for every SHEEP group that holds hay (DRYGRASS_WINDROW) its fill types go into the ALPACA hay group.
 -- So map crops like alfalfa or clover, or any custom forage a map puts with the sheep's grass/hay, also feed alpacas.
+-- Meadow (pasture grazing) gets the same effectiveness as grass.
 
 PRXAlpacaFood = {}
 PRXAlpacaFood.done = false
@@ -66,6 +67,17 @@ function PRXAlpacaFood.apply()
                     table.insert(target.fillTypes, fillTypeIndex)
                     table.insert(added, string.format("%s -> %s", tostring(g_fillTypeManager:getFillTypeNameByIndex(fillTypeIndex)), tostring(target.title)))
                 end
+            end
+        end
+    end
+
+    -- meadow (pasture grazing) counts the same as grass: give every other alpaca food group the grass group's effectiveness
+    if alpacaGrass ~= alpacaHay and alpacaGrass.productionWeight ~= nil then
+        for _, group in pairs(alpacaFood.groups) do
+            if group ~= alpacaGrass and group ~= alpacaHay and group.productionWeight ~= alpacaGrass.productionWeight then
+                Logging.info("[Alpaca PRX500] Food group '%s' effectiveness %d%% -> %d%% (same as grass)",
+                    tostring(group.title), math.floor((group.productionWeight or 0) * 100 + 0.5), math.floor(alpacaGrass.productionWeight * 100 + 0.5))
+                group.productionWeight = alpacaGrass.productionWeight
             end
         end
     end

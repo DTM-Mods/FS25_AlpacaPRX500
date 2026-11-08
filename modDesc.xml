@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>PropaineX</author>
-    <version>1.9.2.0</version>
+    <version>1.9.3.0</version>
     <title>
         <en>Alpaca PRX500</en>
     </title>
@@ -12,7 +12,7 @@ A place to keep your alpacas, with a pasture you can customize.
 - Holds at least 100 alpacas
 - Shearing spot in the old milking stall
 - Fleece comes out as pallets inside the Open Wooden Garage, open side facing the barn
-- Food: grass and hay, the same as sheep on any map (including alfalfa, clover and map crops), 360,000 l
+- Food: grass and hay, the same as sheep on any map (including alfalfa, clover and map crops); meadow counts the same as grass; 360,000 l
 - Straw bedding: 120,000 l, used up per day like pigs; production 110% when full down to 85% when empty (no manure, no slurry)
 - Automatic water supply (you pay for the water used)
 - No milk production
