@@ -1,5 +1,11 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.16.5.0 – 2026-11-08 – Pallet switch prompt, fourth fix
+
+Untested in game.
+
+- The cabinet prompt now registers its key the same way the barn's doors do (same key as "Open door"), so it shows on screen.
+
 ## 1.16.4.0 – 2026-11-08 – Pallet switch prompt, third fix
 
 Untested in game.

@@ -199,6 +199,31 @@ function PRXPalletSizeActivatable:updateText()
     end
 end
 
+-- register the key the same way the barn's doors do (AnimatedObjectActivatable): ACTIVATE_HANDTOOL, very high priority
+function PRXPalletSizeActivatable:registerCustomInput(inputContext)
+    local _
+    _, self.actionEventId = g_inputBinding:registerActionEvent(InputAction.ACTIVATE_HANDTOOL, self, self.onInputToggle, false, true, false, true)
+    if self.actionEventId ~= nil then
+        g_inputBinding:setActionEventTextPriority(self.actionEventId, GS_PRIO_VERY_HIGH)
+        g_inputBinding:setActionEventTextVisibility(self.actionEventId, true)
+        self:updateText()
+        g_inputBinding:setActionEventText(self.actionEventId, self.activateText)
+    end
+    Logging.info("[Alpaca PRX500] pallet switch: key registered %s", tostring(self.actionEventId))
+end
+
+function PRXPalletSizeActivatable:removeCustomInput(inputContext)
+    g_inputBinding:removeActionEventsByTarget(self)
+    self.actionEventId = nil
+end
+
+function PRXPalletSizeActivatable:onInputToggle()
+    self:run()
+    if self.actionEventId ~= nil then
+        g_inputBinding:setActionEventText(self.actionEventId, self.activateText)
+    end
+end
+
 function PRXPalletSizeActivatable:getIsActivatable()
     local player = g_localPlayer
     return player ~= nil and not player:getIsInVehicle()
