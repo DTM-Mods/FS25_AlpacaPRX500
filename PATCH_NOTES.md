@@ -1,5 +1,11 @@
 # Alpaca PRX500 – Patch notes
 
+## 1.10.4.0 – 2026-11-08 – Fleece pallet moved
+
+Untested in game.
+
+- **Fleece pallet** in the shearing room moved to the front of the rope pile, at the edge of the stall.
+
 ## 1.10.3.0 – 2026-11-08 – Wagon wheel, fleece pallet by the ropes
 
 Untested in game.
