@@ -47,6 +47,7 @@ A Farming Simulator 25 placeable by PropaineX: a large alpaca barn with its own 
 <p align="center">
   <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/files.jpg" alt="Files" width="100%">
 </p>
+
 - `modDesc.xml`: mod description and the custom placeable type.
 - `placeables/alpacaPRX500/`: the barn's settings file, its model, and the shop picture.
 - `scripts/`:
