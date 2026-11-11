@@ -57,8 +57,15 @@ A Farming Simulator 25 placeable by PropaineX: a large alpaca barn with its own 
 <!-- /dtm-screenshots -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/files.jpg" alt="Files" width="100%">
+  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/installation.jpg" alt="Installation" width="100%">
 </p>
+
+Download `FS25_AlpacaPRX500.zip` from the [latest release](https://github.com/DTM-Mods/FS25_AlpacaPRX500/releases/latest) and put it in `Documents/My Games/FarmingSimulator2025/mods`, without unzipping or renaming it. In multiplayer, the server and every player need the same version.
+
+<details>
+<summary><b>For developers</b>: files, building and tests</summary>
+
+### Files
 
 - `modDesc.xml`: mod description and the custom placeable type.
 - `placeables/alpacaPRX500/`: the barn's settings file, its model, and the shop picture.
@@ -69,6 +76,8 @@ A Farming Simulator 25 placeable by PropaineX: a large alpaca barn with its own 
 - `PATCH_NOTES.md`: changes per version. Not part of the mod zip.
 
 To build the mod zip, zip the mod files with `modDesc.xml` at the root. Leave out `PATCH_NOTES.md`, `README.md` and `.gitignore`.
+
+</details>
 
 ---
 
