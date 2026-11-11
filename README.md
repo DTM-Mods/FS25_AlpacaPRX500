@@ -44,6 +44,18 @@ A Farming Simulator 25 placeable by PropaineX: a large alpaca barn with its own 
 - Solar panels as one option for barn and garage.
 - Price $268,200, upkeep $268/day.
 
+<!-- dtm-screenshots -->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/screenshots.jpg" alt="Screenshots" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/screens/FS25_AlpacaPRX500/shop.jpg" alt="Alpaca PRX500" width="100%">
+</p>
+
+<!-- /dtm-screenshots -->
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/files.jpg" alt="Files" width="100%">
 </p>
