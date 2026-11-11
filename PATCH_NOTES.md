@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/patch-notes.jpg" alt="Patch notes" width="100%">
+</p>
+
 # Alpaca PRX500 – Patch notes
 
 ## 1.17.2.0 – 2026-11-08 – Release build
