@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Mărimea paleților de lână (acum %s)"/>
+        <e k="prx_palletSizeTitle" v="Mărimea paleților de lână"/>
+        <e k="prx_palletSizeNow" v="Acum: %s. Paleții noi de lână apar la mărimea aleasă."/>
+        <e k="prx_pallet2000" v="2.000 l"/>
+        <e k="prx_pallet5000" v="5.000 l"/>
+        <e k="prx_fleecePallet" v="Lână de alpaca"/>
+        <e k="prx_strawBedding" v="Așternut de paie"/>
+        <e k="prx_function_alpacaPen" v="Țarc pentru alpaca (cel puțin 100)"/>
+    </elements>
+</l10n>

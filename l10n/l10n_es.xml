@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Tamaño de los palés de lana (ahora %s)"/>
+        <e k="prx_palletSizeTitle" v="Tamaño de los palés de lana"/>
+        <e k="prx_palletSizeNow" v="Ahora: %s. Los nuevos palés de lana aparecen con el tamaño que elijas."/>
+        <e k="prx_pallet2000" v="2.000 l"/>
+        <e k="prx_pallet5000" v="5.000 l"/>
+        <e k="prx_fleecePallet" v="Lana de alpaca"/>
+        <e k="prx_strawBedding" v="Cama de paja"/>
+        <e k="prx_function_alpacaPen" v="Recinto para alpacas (al menos 100)"/>
+    </elements>
+</l10n>

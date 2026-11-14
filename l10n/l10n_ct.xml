@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="羊駝毛棧板大小（目前 %s）"/>
+        <e k="prx_palletSizeTitle" v="羊駝毛棧板大小"/>
+        <e k="prx_palletSizeNow" v="目前：%s。新的羊駝毛棧板會以所選大小生成。"/>
+        <e k="prx_pallet2000" v="2,000 公升"/>
+        <e k="prx_pallet5000" v="5,000 公升"/>
+        <e k="prx_fleecePallet" v="羊駝毛"/>
+        <e k="prx_strawBedding" v="稻草墊料"/>
+        <e k="prx_function_alpacaPen" v="羊駝圍欄（至少 100 隻）"/>
+    </elements>
+</l10n>

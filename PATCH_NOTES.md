@@ -4,6 +4,14 @@
 
 # Alpaca PRX500 – Patch notes
 
+## 1.17.2.2 – 2026-11-13 – All 27 game languages
+
+Untested in game.
+
+- The mod description is now in **all 27 languages of the game** (before: English only; the ModHub upload form fills its English, German and French boxes from it, so German and French showed the English text). The English one is the cleaner ModHub text.
+- The in-game texts are translated into all 27 languages too: the shop line, "Alpaca Fleece", "Straw Bedding" and the pallet size menu. They live in `l10n/l10n_XX.xml` (the GIANTS layout) instead of modDesc.xml. The pallet size shows in the local number format (5,000 l / 5.000 l / 5 000 l / 5 000 л).
+- German and French were written with care; the other languages are machine-quality and welcome a native speaker's check.
+
 ## 1.17.2.1 – 2026-11-13 – Author name
 
 - The author now shows as **DTM Mods, PropaineX** in the mod list.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Taille des palettes de laine (actuellement %s)"/>
+        <e k="prx_palletSizeTitle" v="Taille des palettes de laine"/>
+        <e k="prx_palletSizeNow" v="Actuellement : %s. Les nouvelles palettes de laine apparaissent à la taille choisie."/>
+        <e k="prx_pallet2000" v="2 000 l"/>
+        <e k="prx_pallet5000" v="5 000 l"/>
+        <e k="prx_fleecePallet" v="Laine d'alpaga"/>
+        <e k="prx_strawBedding" v="Litière de paille"/>
+        <e k="prx_function_alpacaPen" v="Enclos pour alpagas (au moins 100 animaux)"/>
+    </elements>
+</l10n>

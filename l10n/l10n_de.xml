@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Größe der Wollpaletten (jetzt %s)"/>
+        <e k="prx_palletSizeTitle" v="Größe der Wollpaletten"/>
+        <e k="prx_palletSizeNow" v="Jetzt: %s. Neue Wollpaletten erscheinen in der gewählten Größe."/>
+        <e k="prx_pallet2000" v="2.000 l"/>
+        <e k="prx_pallet5000" v="5.000 l"/>
+        <e k="prx_fleecePallet" v="Alpakawolle"/>
+        <e k="prx_strawBedding" v="Stroh-Einstreu"/>
+        <e k="prx_function_alpacaPen" v="Tiergehege für Alpakas (fasst mindestens 100)"/>
+    </elements>
+</l10n>

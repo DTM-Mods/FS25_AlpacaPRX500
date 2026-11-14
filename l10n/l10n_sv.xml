@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Storlek på ullpallar (nu %s)"/>
+        <e k="prx_palletSizeTitle" v="Storlek på ullpallar"/>
+        <e k="prx_palletSizeNow" v="Nu: %s. Nya ullpallar dyker upp i den storlek du väljer."/>
+        <e k="prx_pallet2000" v="2 000 l"/>
+        <e k="prx_pallet5000" v="5 000 l"/>
+        <e k="prx_fleecePallet" v="Alpackaull"/>
+        <e k="prx_strawBedding" v="Halmströ"/>
+        <e k="prx_function_alpacaPen" v="Djurhägn för alpackor (minst 100)"/>
+    </elements>
+</l10n>

@@ -1,29 +1,337 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>DTM Mods, PropaineX</author>
-    <version>1.17.2.1</version>
+    <version>1.17.2.2</version>
     <title>
         <en>Alpaca PRX500</en>
+        <de>Alpaca PRX500</de>
+        <fr>Alpaca PRX500</fr>
     </title>
     <description>
-        <en><![CDATA[Alpaca PRX500: a large alpaca barn with its own covered fleece pallet shed.
+        <en><![CDATA[Alpaca PRX500 is a large alpaca barn built on the base-game Hörmann barn, with its own covered fleece pallet shed beside it. It holds at least 100 alpacas and comes with a pasture you can customize when you place it. Requires the Beans & Alpacas DLC.
 
-A place to keep your alpacas, with a pasture you can customize.
-- Holds at least 100 alpacas
-- Shearing spot in the old milking stall
-- Fleece comes out as pallets inside the Open Wooden Garage, open side facing the barn
-- Food: grass and hay, the same as sheep on any map (including alfalfa, clover and map crops); meadow counts the same as grass; 360,000 l
-- Straw bedding: 120,000 l, used up per day like pigs; production 110% when full down to 85% when empty (no manure, no slurry)
-- Automatic water supply (you pay for the water used)
-- No milk production
-- Optional solar panels on the barn and the garage (one option)
-- 13 colour choices
+- Shearing spot in the old milking stall, furnished as a shearing room
+- Fleece comes out as pallets in an open wooden garage next to the barn, on 6 rows, stacking 2 high
+- Pallet size 2,000 l or 5,000 l, chosen at the control cabinet in the old milk-cooler room
+- Food: grass and hay, the same as sheep on the map (alfalfa, clover and map crops included), 360,000 l; hay adds up to +5% fleece output
+- Straw bedding: 120,000 l, used daily at the pig rate; production 110% when full, falling to 85% when empty
+- Automatic water supply (you pay for the water used); no milk, slurry or manure
+- Optional solar panels on the barn and the garage, 13 colour choices
+- Price 268,200, upkeep 268 per day
 
-Price: $268,200 | Upkeep: $268/day
-Shop: Animal Pens > Alpacas
+How to use: Shop > Animal Pens > Alpacas. Press R at the cabinet to change the pallet size. While this mod is loaded, its food rules apply to every alpaca barn on the map.]]></en>
+        <de><![CDATA[Alpaca PRX500 ist ein großer Alpakastall auf Basis des Hörmann-Stalls aus dem Grundspiel, mit eigenem überdachtem Unterstand für Wollpaletten daneben. Er fasst mindestens 100 Alpakas und hat eine Weide, die du beim Platzieren anpassen kannst. Benötigt den Beans & Alpacas DLC.
 
-Requires the Beans & Alpacas DLC.
-Uses the base-game Hörmann models, no extra textures.]]></en>
+- Scherplatz im alten Melkstand, als Scherraum eingerichtet
+- Die Alpakawolle kommt als Paletten in einer offenen Holzgarage neben dem Stall heraus, auf 6 Reihen, 2 hoch stapelbar
+- Palettengröße 2.000 l oder 5.000 l, wählbar am Schaltschrank im alten Milchkühlraum
+- Futter: Gras und Heu wie bei den Schafen der Karte (auch Luzerne, Klee und Kartenfrüchte), 360.000 l; Heu bringt bis zu +5 % Wolle
+- Stroh-Einstreu: 120.000 l, täglicher Verbrauch wie bei Schweinen; Produktivität 110 % bei vollem Lager, sinkt auf 85 % wenn leer
+- Automatische Wasserversorgung (das Wasser wird bezahlt); keine Milch, keine Gülle, kein Mist
+- Solaranlage auf Stall und Garage als Option, 13 Farben zur Auswahl
+- Preis 268.200, Unterhalt 268 pro Tag
+
+Bedienung: Shop > Tiergehege > Alpakas. Am Schaltschrank R drücken, um die Palettengröße zu ändern. Solange dieser Mod aktiv ist, gelten seine Futterregeln für alle Alpakaställe auf der Karte.]]></de>
+        <fr><![CDATA[Alpaca PRX500 est une grande étable à alpagas construite sur l'étable Hörmann du jeu de base, avec son propre abri couvert pour les palettes de laine. Elle accueille au moins 100 alpagas et dispose d'un pâturage que vous pouvez personnaliser en la plaçant. Nécessite le DLC Beans & Alpacas.
+
+- Poste de tonte dans l'ancienne salle de traite, aménagée en salle de tonte
+- La laine d'alpaga sort en palettes dans un garage ouvert en bois à côté de l'étable, sur 6 rangées, empilables sur 2 niveaux
+- Palettes de 2 000 l ou 5 000 l, au choix à l'armoire électrique de l'ancien local du tank à lait
+- Nourriture : herbe et foin, comme les moutons de la carte (luzerne, trèfle et cultures de la carte compris), 360 000 l ; le foin donne jusqu'à +5 % de laine
+- Litière de paille : 120 000 l, consommée chaque jour comme pour les porcs ; productivité 110 % quand elle est pleine, jusqu'à 85 % quand elle est vide
+- Eau automatique (l'eau consommée est payante) ; pas de lait, ni lisier, ni fumier
+- Panneaux solaires en option sur l'étable et le garage, 13 couleurs au choix
+- Prix 268 200, entretien 268 par jour
+
+Utilisation : Boutique > Enclos > Alpagas. Appuyez sur R devant l'armoire pour changer la taille des palettes. Tant que ce mod est chargé, ses règles de nourriture s'appliquent à toutes les étables à alpagas de la carte.]]></fr>
+        <fc><![CDATA[Alpaca PRX500 est une grande étable à alpagas construite sur l'étable Hörmann du jeu de base, avec son propre abri couvert pour les palettes de laine. Elle accueille au moins 100 alpagas et dispose d'un pâturage que vous pouvez personnaliser en la plaçant. Nécessite le DLC Beans & Alpacas.
+
+- Poste de tonte dans l'ancienne salle de traite, aménagée en salle de tonte
+- La laine d'alpaga sort en palettes dans un garage ouvert en bois à côté de l'étable, sur 6 rangées, empilables sur 2 niveaux
+- Palettes de 2 000 l ou 5 000 l, au choix à l'armoire électrique de l'ancien local du tank à lait
+- Nourriture : herbe et foin, comme les moutons de la carte (luzerne, trèfle et cultures de la carte compris), 360 000 l ; le foin donne jusqu'à +5 % de laine
+- Litière de paille : 120 000 l, consommée chaque jour comme pour les porcs ; productivité 110 % quand elle est pleine, jusqu'à 85 % quand elle est vide
+- Eau automatique (l'eau consommée est payante) ; pas de lait, ni lisier, ni fumier
+- Panneaux solaires en option sur l'étable et le garage, 13 couleurs au choix
+- Prix 268 200, entretien 268 par jour
+
+Utilisation : Magasin > Enclos > Alpagas. Appuyez sur R devant l'armoire pour changer la taille des palettes. Tant que ce mod est chargé, ses règles de nourriture s'appliquent à toutes les étables à alpagas de la carte.]]></fc>
+        <es><![CDATA[Alpaca PRX500 es un gran establo para alpacas basado en el establo Hörmann del juego base, con su propio cobertizo cubierto para los palés de lana al lado. Aloja al menos 100 alpacas y tiene un pasto que puedes personalizar al colocarlo. Requiere el DLC Beans & Alpacas.
+
+- Zona de esquilado en la antigua sala de ordeño, equipada como sala de esquilado
+- La lana sale en palés en un garaje abierto de madera junto al establo, en 6 filas, apilables en 2 alturas
+- Palés de 2.000 l o 5.000 l, a elegir en el armario de control de la antigua sala del tanque de leche
+- Comida: hierba y heno, igual que las ovejas del mapa (alfalfa, trébol y cultivos del mapa incluidos), 360.000 l; el heno da hasta un +5 % de lana
+- Cama de paja: 120.000 l, consumo diario como el de los cerdos; producción del 110 % con la cama llena, bajando al 85 % cuando está vacía
+- Suministro de agua automático (pagas el agua consumida); sin leche, purín ni estiércol
+- Paneles solares opcionales en el establo y el garaje, 13 colores a elegir
+- Precio 268.200, mantenimiento 268 al día
+
+Uso: Tienda > Recintos de animales > Alpacas. Pulsa R en el armario para cambiar el tamaño de los palés. Mientras este mod esté cargado, sus reglas de comida se aplican a todos los establos de alpacas del mapa.]]></es>
+        <ea><![CDATA[Alpaca PRX500 es un gran establo para alpacas basado en el establo Hörmann del juego base, con su propio cobertizo cubierto para los pallets de lana al lado. Aloja al menos 100 alpacas y tiene un pasto que puedes personalizar al colocarlo. Requiere el DLC Beans & Alpacas.
+
+- Zona de esquilado en la antigua sala de ordeño, equipada como sala de esquilado
+- La lana sale en pallets en un garaje abierto de madera junto al establo, en 6 filas, apilables en 2 alturas
+- Palés de 2,000 l o 5,000 l, a elegir en el armario de control de la antigua sala del tanque de leche
+- Comida: hierba y heno, igual que las ovejas del mapa (alfalfa, trébol y cultivos del mapa incluidos), 360,000 l; el heno da hasta un +5 % de lana
+- Cama de paja: 120,000 l, consumo diario como el de los cerdos; producción del 110 % con la cama llena, bajando al 85 % cuando está vacía
+- Suministro de agua automático (pagas el agua consumida); sin leche, estiércol líquido ni estiércol sólido
+- Paneles solares opcionales en el establo y el garaje, 13 colores a elegir
+- Precio 268,200, mantenimiento 268 al día
+
+Uso: Tienda > Corrales de animales > Alpacas. Presiona R en el armario para cambiar el tamaño de los pallets. Mientras este mod esté cargado, sus reglas de comida se aplican a todos los establos de alpacas del mapa.]]></ea>
+        <it><![CDATA[Alpaca PRX500 è una grande stalla per alpaca basata sulla stalla Hörmann del gioco base, con una propria tettoia coperta per i pallet di lana accanto. Ospita almeno 100 alpaca e ha un pascolo che puoi personalizzare quando la posizioni. Richiede il DLC Beans & Alpacas.
+
+- Postazione di tosatura nella vecchia sala di mungitura, arredata come sala di tosatura
+- La lana esce in pallet in un garage aperto in legno accanto alla stalla, su 6 file, impilabili su 2 livelli
+- Pallet da 2.000 l o 5.000 l, da scegliere all'armadio elettrico nella vecchia sala del refrigeratore del latte
+- Cibo: erba e fieno, come le pecore della mappa (erba medica, trifoglio e colture della mappa compresi), 360.000 l; il fieno aumenta la lana fino al +5%
+- Lettiera di paglia: 120.000 l, consumo giornaliero come per i maiali; produzione al 110% quando è piena, fino all'85% quando è vuota
+- Acqua automatica (paghi l'acqua consumata); niente latte, liquame o letame
+- Pannelli solari opzionali sulla stalla e sul garage, 13 colori a scelta
+- Prezzo 268.200, manutenzione 268 al giorno
+
+Uso: Negozio > Recinti per animali > Alpaca. Premi R all'armadio per cambiare la dimensione dei pallet. Finché questa mod è caricata, le sue regole sul cibo valgono per tutte le stalle per alpaca della mappa.]]></it>
+        <pt><![CDATA[Alpaca PRX500 é um grande estábulo para alpacas baseado no estábulo Hörmann do jogo base, com o seu próprio telheiro coberto para as paletes de lã ao lado. Aloja pelo menos 100 alpacas e tem um pasto que pode personalizar ao colocá-lo. Requer o DLC Beans & Alpacas.
+
+- Posto de tosquia na antiga sala de ordenha, equipada como sala de tosquia
+- A lã sai em paletes numa garagem aberta de madeira ao lado do estábulo, em 6 filas, empilháveis em 2 níveis
+- Paletes de 2 000 l ou 5 000 l, à escolha no armário de controlo da antiga sala do refrigerador de leite
+- Alimento: erva e feno, tal como as ovelhas do mapa (luzerna, trevo e culturas do mapa incluídos), 360 000 l; o feno dá até +5% de lã
+- Cama de palha: 120 000 l, consumo diário igual ao dos porcos; produção de 110% quando cheia, descendo para 85% quando vazia
+- Abastecimento automático de água (paga a água consumida); sem leite, chorume nem estrume
+- Painéis solares opcionais no estábulo e na garagem, 13 cores à escolha
+- Preço 268 200, manutenção 268 por dia
+
+Utilização: Loja > Cercados de animais > Alpacas. Prima R no armário para mudar o tamanho das paletes. Enquanto este mod estiver carregado, as suas regras de alimentação aplicam-se a todos os estábulos de alpacas do mapa.]]></pt>
+        <br><![CDATA[Alpaca PRX500 é um grande galpão para alpacas baseado no galpão Hörmann do jogo base, com seu próprio abrigo coberto para os pallets de lã ao lado. Comporta pelo menos 100 alpacas e tem um pasto que você pode personalizar ao posicioná-lo. Requer o DLC Beans & Alpacas.
+
+- Local de tosquia na antiga sala de ordenha, montada como sala de tosquia
+- A lã sai em pallets numa garagem aberta de madeira ao lado do galpão, em 6 fileiras, empilháveis em 2 níveis
+- Pallets de 2.000 l ou 5.000 l, escolhidos no armário de controle da antiga sala do resfriador de leite
+- Alimento: grama e feno, igual às ovelhas do mapa (alfafa, trevo e culturas do mapa incluídos), 360.000 l; o feno dá até +5% de lã
+- Cama de palha: 120.000 l, consumo diário igual ao dos porcos; produção de 110% quando cheia, caindo para 85% quando vazia
+- Abastecimento automático de água (você paga a água usada); sem leite, chorume ou esterco
+- Painéis solares opcionais no galpão e na garagem, 13 cores à escolha
+- Preço 268.200, manutenção 268 por dia
+
+Como usar: Loja > Currais de animais > Alpacas. Pressione R no armário para mudar o tamanho dos pallets. Enquanto este mod estiver carregado, suas regras de alimentação valem para todos os galpões de alpacas do mapa.]]></br>
+        <nl><![CDATA[Alpaca PRX500 is een grote alpacastal op basis van de Hörmann-stal uit het basisspel, met een eigen overdekte schuur voor wolpallets ernaast. Er passen minstens 100 alpaca's in en hij heeft een weide die je bij het plaatsen kunt aanpassen. Vereist de Beans & Alpacas DLC.
+
+- Scheerplek in de oude melkstal, ingericht als scheerruimte
+- De wol komt als pallets in een open houten garage naast de stal, op 6 rijen, 2 hoog stapelbaar
+- Palletgrootte 2.000 l of 5.000 l, te kiezen bij de schakelkast in de oude melkkoelruimte
+- Voer: gras en hooi, net als de schapen op de kaart (inclusief luzerne, klaver en kaartgewassen), 360.000 l; hooi geeft tot +5% wol
+- Strooisel van stro: 120.000 l, dagelijks verbruik zoals bij varkens; productie 110% als het vol is, zakt naar 85% als het leeg is
+- Automatische watervoorziening (je betaalt voor het verbruikte water); geen melk, drijfmest of mest
+- Optionele zonnepanelen op de stal en de garage, 13 kleuren naar keuze
+- Prijs 268.200, onderhoud 268 per dag
+
+Gebruik: Winkel > Dierenverblijven > Alpaca's. Druk bij de kast op R om de palletgrootte te wijzigen. Zolang deze mod geladen is, gelden de voerregels voor alle alpacastallen op de kaart.]]></nl>
+        <pl><![CDATA[Alpaca PRX500 to duża obora dla alpak zbudowana na bazie obory Hörmann z gry podstawowej, z własną zadaszoną wiatą na palety z wełną obok. Mieści co najmniej 100 alpak i ma pastwisko, które możesz dostosować podczas stawiania. Wymaga DLC Beans & Alpacas.
+
+- Stanowisko strzyżenia w dawnej hali udojowej, urządzonej jako strzyżalnia
+- Wełna trafia na palety w otwartym drewnianym garażu obok obory, w 6 rzędach, ułożonych po 2 w górę
+- Palety 2 000 l lub 5 000 l, do wyboru przy szafce sterowniczej w dawnym pomieszczeniu schładzalnika mleka
+- Pasza: trawa i siano, tak jak dla owiec na mapie (także lucerna, koniczyna i uprawy mapy), 360 000 l; siano daje do +5% więcej wełny
+- Ściółka ze słomy: 120 000 l, zużycie dzienne jak u świń; produkcja 110% przy pełnej, spada do 85% przy pustej
+- Automatyczne zaopatrzenie w wodę (płacisz za zużytą wodę); bez mleka, gnojowicy i obornika
+- Opcjonalne panele słoneczne na oborze i garażu, 13 kolorów do wyboru
+- Cena 268 200, utrzymanie 268 dziennie
+
+Obsługa: Sklep > Zagrody dla zwierząt > Alpaki. Naciśnij R przy szafce, aby zmienić rozmiar palet. Dopóki ten mod jest załadowany, jego zasady paszy obowiązują we wszystkich oborach dla alpak na mapie.]]></pl>
+        <cz><![CDATA[Alpaca PRX500 je velká stáj pro alpaky postavená na stáji Hörmann ze základní hry, s vlastním krytým přístřeškem na palety s vlnou vedle ní. Pojme nejméně 100 alpak a má pastvinu, kterou si můžeš upravit při umístění. Vyžaduje DLC Beans & Alpacas.
+
+- Místo pro stříhání ve staré dojírně, zařízené jako střihárna
+- Vlna vychází na paletách v otevřené dřevěné garáži vedle stáje, v 6 řadách, stohovatelné 2 na sebe
+- Palety 2 000 l nebo 5 000 l, volba u rozvaděče ve staré místnosti chladiče mléka
+- Krmivo: tráva a seno, stejně jako ovce na mapě (včetně vojtěšky, jetele a plodin mapy), 360 000 l; seno přidá až +5 % vlny
+- Slaměná podestýlka: 120 000 l, denní spotřeba jako u prasat; produkce 110 % při plné, klesá na 85 % při prázdné
+- Automatický přívod vody (platíš za spotřebovanou vodu); žádné mléko, kejda ani hnůj
+- Volitelné solární panely na stáji a garáži, 13 barev na výběr
+- Cena 268 200, údržba 268 za den
+
+Ovládání: Obchod > Výběhy pro zvířata > Alpaky. U rozvaděče stiskni R pro změnu velikosti palet. Dokud je tento mód načten, platí jeho pravidla krmení pro všechny stáje pro alpaky na mapě.]]></cz>
+        <hu><![CDATA[Az Alpaca PRX500 egy nagy alpakaistálló az alapjáték Hörmann istállója alapján, mellette saját fedett gyapjúraklap-tárolóval. Legalább 100 alpakát fogad be, és lerakáskor testreszabható legelője van. A Beans & Alpacas DLC szükséges hozzá.
+
+- Nyírási hely a régi fejőállásban, nyíróhelyiségként berendezve
+- A gyapjú raklapokon jelenik meg egy nyitott fagarázsban az istálló mellett, 6 sorban, 2 szint magasan rakva
+- 2 000 l vagy 5 000 l-es raklapok, a régi tejhűtő helyiség vezérlőszekrényénél választható
+- Takarmány: fű és széna, ugyanúgy, mint a térkép juhainál (lucerna, lóhere és a térkép növényei is), 360 000 l; a széna akár +5% gyapjút ad
+- Szalmaalom: 120 000 l, napi fogyasztás a sertésekéhez hasonlóan; termelés 110% teli állapotban, üresen 85%-ra csökken
+- Automatikus vízellátás (a felhasznált vizet fizeted); nincs tej, hígtrágya vagy trágya
+- Opcionális napelemek az istállón és a garázson, 13 szín közül választhatsz
+- Ár 268 200, fenntartás napi 268
+
+Használat: Bolt > Állattartó helyek > Alpakák. Nyomd meg az R-t a szekrénynél a raklapméret módosításához. Amíg ez a mod be van töltve, a takarmányszabályai a térkép összes alpakaistállójára érvényesek.]]></hu>
+        <ro><![CDATA[Alpaca PRX500 este un grajd mare pentru alpaca, construit pe baza grajdului Hörmann din jocul de bază, cu propriul șopron acoperit pentru paleții de lână alături. Găzduiește cel puțin 100 de alpaca și are o pășune pe care o poți personaliza la amplasare. Necesită DLC-ul Beans & Alpacas.
+
+- Loc de tuns în vechea sală de muls, amenajată ca sală de tuns
+- Lâna iese pe paleți într-un garaj deschis din lemn lângă grajd, pe 6 rânduri, stivuiți câte 2
+- Paleți de 2.000 l sau 5.000 l, la alegere la dulapul de comandă din vechea cameră a răcitorului de lapte
+- Hrană: iarbă și fân, la fel ca oile de pe hartă (inclusiv lucernă, trifoi și culturile hărții), 360.000 l; fânul aduce până la +5% lână
+- Așternut de paie: 120.000 l, consum zilnic ca la porci; producție 110% când e plin, scade la 85% când e gol
+- Alimentare automată cu apă (plătești apa folosită); fără lapte, dejecții lichide sau gunoi de grajd
+- Panouri solare opționale pe grajd și pe garaj, 13 culori la alegere
+- Preț 268.200, întreținere 268 pe zi
+
+Utilizare: Magazin > Țarcuri pentru animale > Alpaca. Apasă R la dulap pentru a schimba mărimea paleților. Cât timp acest mod este încărcat, regulile lui de hrănire se aplică tuturor grajdurilor de alpaca de pe hartă.]]></ro>
+        <tr><![CDATA[Alpaca PRX500, ana oyundaki Hörmann ahırı temel alınarak yapılmış büyük bir alpaka ahırıdır ve yanında yün paletleri için kendi üstü kapalı sundurması vardır. En az 100 alpaka barındırır ve yerleştirirken özelleştirebileceğin bir merası vardır. Beans & Alpacas DLC'si gerekir.
+
+- Eski sağım bölmesinde, kırkım odası olarak döşenmiş kırkım yeri
+- Yün, ahırın yanındaki açık ahşap garajda paletler halinde çıkar; 6 sıra, 2 kat istiflenir
+- 2.000 l veya 5.000 l paletler, eski süt soğutma odasındaki kontrol dolabından seçilir
+- Yem: ot ve kuru ot, haritadaki koyunlarla aynı (yonca, üçgül ve harita ürünleri dahil), 360.000 l; kuru ot yünü %5'e kadar artırır
+- Saman yataklık: 120.000 l, domuzlar gibi günlük tüketim; doluyken üretim %110, boşken %85'e düşer
+- Otomatik su temini (kullanılan suyu ödersin); süt, sıvı gübre veya gübre yok
+- Ahırda ve garajda isteğe bağlı güneş panelleri, 13 renk seçeneği
+- Fiyat 268.200, bakım günde 268
+
+Kullanım: Mağaza > Hayvan Ağılları > Alpakalar. Paletlerin boyutunu değiştirmek için dolabın yanında R'ye bas. Bu mod yüklü olduğu sürece yem kuralları haritadaki tüm alpaka ahırlarında geçerlidir.]]></tr>
+        <ru><![CDATA[Alpaca PRX500 — большой хлев для альпак на основе хлева Hörmann из базовой игры, с собственным крытым навесом для паллет с шерстью рядом. Вмещает не менее 100 альпак и имеет пастбище, которое можно настроить при установке. Требуется DLC Beans & Alpacas.
+
+- Место для стрижки в старом доильном зале, оборудованном как стригальня
+- Шерсть выходит на паллетах в открытом деревянном гараже рядом с хлевом, в 6 рядов, штабелируются в 2 яруса
+- Паллеты на 2 000 л или 5 000 л, выбор у шкафа управления в бывшей комнате охладителя молока
+- Корм: трава и сено, как для овец на карте (включая люцерну, клевер и культуры карты), 360 000 л; сено даёт до +5 % шерсти
+- Соломенная подстилка: 120 000 л, суточный расход как у свиней; производство 110 % при полной, падает до 85 % при пустой
+- Автоматическое водоснабжение (вы платите за израсходованную воду); без молока, жидкого навоза и навоза
+- Солнечные панели на хлеву и гараже по желанию, 13 цветов на выбор
+- Цена 268 200, содержание 268 в день
+
+Использование: Магазин > Загоны для животных > Альпаки. Нажмите R у шкафа, чтобы изменить размер паллет. Пока этот мод загружен, его правила кормления действуют для всех загонов альпак на карте.]]></ru>
+        <uk><![CDATA[Alpaca PRX500 — великий хлів для альпак на основі хліва Hörmann з базової гри, з власним критим навісом для палет із вовною поруч. Вміщує щонайменше 100 альпак і має пасовище, яке можна налаштувати під час встановлення. Потрібне DLC Beans & Alpacas.
+
+- Місце для стрижки в старій доїльній залі, облаштованій як стригальня
+- Вовна виходить на палетах у відкритому дерев’яному гаражі поруч із хлівом, у 6 рядів, штабелюються у 2 яруси
+- Палети на 2 000 л або 5 000 л, вибір біля шафи керування в колишній кімнаті охолоджувача молока
+- Корм: трава й сіно, як для овець на карті (зокрема люцерна, конюшина й культури карти), 360 000 л; сіно дає до +5 % вовни
+- Солом’яна підстилка: 120 000 л, добова витрата як у свиней; виробництво 110 % при повній, падає до 85 % при порожній
+- Автоматичне водопостачання (ви платите за використану воду); без молока, гноївки та гною
+- Сонячні панелі на хліві й гаражі за бажанням, 13 кольорів на вибір
+- Ціна 268 200, утримання 268 на день
+
+Використання: Магазин > Загони для тварин > Альпаки. Натисніть R біля шафи, щоб змінити розмір палет. Поки цей мод завантажено, його правила годування діють для всіх загонів альпак на карті.]]></uk>
+        <da><![CDATA[Alpaca PRX500 er en stor alpakastald bygget på Hörmann-stalden fra grundspillet, med sit eget overdækkede skur til uldpaller ved siden af. Den rummer mindst 100 alpakaer og har en græsmark, du kan tilpasse, når du placerer den. Kræver Beans & Alpacas DLC'en.
+
+- Klippeplads i den gamle malkestald, indrettet som klipperum
+- Ulden kommer ud som paller i en åben trægarage ved siden af stalden, på 6 rækker, stablet 2 i højden
+- Pallestørrelse 2.000 l eller 5.000 l, vælges ved styreskabet i det gamle mælkekølerum
+- Foder: græs og hø, ligesom fårene på kortet (inklusive lucerne, kløver og kortets afgrøder), 360.000 l; hø giver op til +5 % uld
+- Halmstrøelse: 120.000 l, dagligt forbrug som hos grise; produktion 110 % når fuld, falder til 85 % når tom
+- Automatisk vandforsyning (du betaler for det brugte vand); ingen mælk, gylle eller møg
+- Valgfrie solpaneler på stalden og garagen, 13 farver at vælge imellem
+- Pris 268.200, vedligeholdelse 268 om dagen
+
+Brug: Butik > Dyrefolde > Alpakaer. Tryk R ved skabet for at ændre pallestørrelsen. Så længe dette mod er indlæst, gælder dets foderregler for alle alpakastalde på kortet.]]></da>
+        <fi><![CDATA[Alpaca PRX500 on suuri alpakkanavetta, joka perustuu peruspelin Hörmann-navettaan, ja sen vieressä on oma katettu katos villalavoille. Siihen mahtuu vähintään 100 alpakkaa, ja sen laitumen voi muokata sijoittaessa. Vaatii Beans & Alpacas -DLC:n.
+
+- Keritsemispaikka vanhassa lypsyasemassa, joka on sisustettu keritsemishuoneeksi
+- Villa tulee lavoina avoimeen puutalliin navetan vieressä, 6 riviin, 2 päällekkäin pinottuna
+- Lavakoko 2 000 l tai 5 000 l, valitaan vanhan maitohuoneen ohjauskaapilta
+- Rehu: ruoho ja heinä, samoin kuin kartan lampailla (myös sinimailanen, apila ja kartan kasvit), 360 000 l; heinä lisää villaa jopa +5 %
+- Olkikuivike: 120 000 l, päivittäinen kulutus kuten sioilla; tuotanto 110 % täynnä, laskee 85 %:iin tyhjänä
+- Automaattinen vedensyöttö (maksat käytetystä vedestä); ei maitoa, lietelantaa eikä lantaa
+- Valinnaiset aurinkopaneelit navetassa ja tallissa, 13 väriä
+- Hinta 268 200, ylläpito 268 päivässä
+
+Käyttö: Kauppa > Eläinaitaukset > Alpakat. Paina R kaapilla vaihtaaksesi lavakokoa. Niin kauan kuin tämä modi on ladattu, sen rehusäännöt koskevat kaikkia kartan alpakkanavettoja.]]></fi>
+        <no><![CDATA[Alpaca PRX500 er et stort alpakkafjøs bygget på Hörmann-fjøset fra grunnspillet, med sitt eget overbygde skur for ullpaller ved siden av. Det har plass til minst 100 alpakkaer og har et beite du kan tilpasse når du plasserer det. Krever Beans & Alpacas-DLC-en.
+
+- Klippeplass i den gamle melkestallen, innredet som klipperom
+- Ulla kommer ut som paller i en åpen tregarasje ved siden av fjøset, på 6 rader, stablet 2 i høyden
+- Pallestørrelse 2 000 l eller 5 000 l, velges ved styreskapet i det gamle melkekjølerommet
+- Fôr: gress og høy, på samme måte som sauene på kartet (inkludert luserne, kløver og kartets avlinger), 360 000 l; høy gir opptil +5 % ull
+- Halmstrø: 120 000 l, daglig forbruk som hos griser; produksjon 110 % når fullt, synker til 85 % når tomt
+- Automatisk vannforsyning (du betaler for vannet som brukes); ingen melk, blautgjødsel eller møkk
+- Valgfrie solcellepaneler på fjøset og garasjen, 13 farger å velge mellom
+- Pris 268 200, vedlikehold 268 per dag
+
+Bruk: Butikk > Dyreinnhegninger > Alpakkaer. Trykk R ved skapet for å endre pallestørrelsen. Så lenge denne moden er lastet, gjelder fôrreglene for alle alpakkafjøs på kartet.]]></no>
+        <sv><![CDATA[Alpaca PRX500 är en stor alpackaladugård byggd på Hörmann-ladugården från grundspelet, med ett eget täckt skjul för ullpallar bredvid. Den rymmer minst 100 alpackor och har en betesmark som du kan anpassa när du placerar den. Kräver Beans & Alpacas-DLC:n.
+
+- Klippningsplats i det gamla mjölkningsstallet, inrett som klipprum
+- Ullen kommer ut som pallar i ett öppet trägarage bredvid ladugården, i 6 rader, staplade 2 på höjden
+- Pallstorlek 2 000 l eller 5 000 l, väljs vid styrskåpet i det gamla mjölkkylrummet
+- Foder: gräs och hö, precis som fåren på kartan (inklusive lusern, klöver och kartans grödor), 360 000 l; hö ger upp till +5 % mer ull
+- Halmströ: 120 000 l, dagsförbrukning som hos grisar; produktion 110 % när det är fullt, sjunker till 85 % när det är tomt
+- Automatisk vattenförsörjning (du betalar för vattnet som används); ingen mjölk, flytgödsel eller gödsel
+- Valfria solpaneler på ladugården och garaget, 13 färger att välja mellan
+- Pris 268 200, underhåll 268 per dag
+
+Användning: Butik > Djurhägn > Alpackor. Tryck R vid skåpet för att byta pallstorlek. Så länge denna mod är laddad gäller dess foderregler för alla alpackaladugårdar på kartan.]]></sv>
+        <jp><![CDATA[Alpaca PRX500は、ベースゲームのHörmann牛舎をもとにした大型のアルパカ舎で、隣に毛パレット用の屋根付き小屋があります。アルパカを100頭以上飼うことができ、設置時にカスタマイズできる放牧地が付いています。Beans & Alpacas DLCが必要です。
+
+- 古い搾乳ストールに毛刈り場（毛刈り室として内装済み）
+- 毛はアルパカ舎の隣にあるオープンな木造ガレージにパレットで出てきます。6列、2段まで積み重ね
+- パレットサイズは2,000 Lまたは5,000 L。旧牛乳冷却室の制御盤で選択
+- 餌: 草と干し草。マップの羊と同じ（アルファルファ、クローバー、マップの作物を含む）、360,000 L。干し草で毛が最大+5%
+- わらの敷料: 120,000 L、豚と同じ割合で毎日消費。満杯で生産110%、空になると85%まで低下
+- 自動給水（使った水の料金を支払います）。牛乳、スラリー、堆肥は出ません
+- アルパカ舎とガレージにオプションのソーラーパネル、13色から選択
+- 価格 268,200、維持費 1日268
+
+使い方: ショップ > 動物の囲い > アルパカ。制御盤でRを押すとパレットサイズを変更できます。このModが読み込まれている間、その餌のルールはマップ上のすべてのアルパカ舎に適用されます。]]></jp>
+        <kr><![CDATA[Alpaca PRX500은 기본 게임의 Hörmann 축사를 바탕으로 만든 대형 알파카 축사로, 옆에 털 팔레트용 지붕 있는 창고가 따로 있습니다. 알파카를 최소 100마리 수용하며, 배치할 때 사용자 지정할 수 있는 목초지가 있습니다. Beans & Alpacas DLC가 필요합니다.
+
+- 예전 착유장에 마련된 털 깎기 공간 (털 깎기 방으로 꾸며짐)
+- 털은 축사 옆의 개방형 목조 차고에 팔레트로 나옵니다. 6줄, 2단까지 쌓임
+- 팔레트 크기 2,000L 또는 5,000L, 예전 우유 냉각실의 제어반에서 선택
+- 사료: 풀과 건초, 맵의 양과 동일 (알팔파, 클로버, 맵 작물 포함), 360,000L. 건초는 털을 최대 +5% 늘림
+- 짚 깔개: 120,000L, 돼지와 같은 비율로 매일 소비. 가득 차면 생산량 110%, 비면 85%까지 감소
+- 자동 급수 (사용한 물값을 지불). 우유, 액비, 거름 없음
+- 축사와 차고에 선택형 태양광 패널, 13가지 색상
+- 가격 268,200, 유지비 하루 268
+
+사용법: 상점 > 동물 우리 > 알파카. 제어반에서 R을 눌러 팔레트 크기를 바꿉니다. 이 모드가 로드되어 있는 동안 사료 규칙은 맵의 모든 알파카 축사에 적용됩니다.]]></kr>
+        <cs><![CDATA[Alpaca PRX500 是一座以基础游戏中 Hörmann 牛棚为基础建造的大型羊驼棚，旁边配有专用的带顶羊驼毛托盘棚。可容纳至少 100 只羊驼，并带有放置时可自定义的牧场。需要 Beans & Alpacas DLC。
+
+- 剪毛位设在旧挤奶位中，布置成剪毛间
+- 羊驼毛以托盘形式出现在羊驼棚旁的开放式木制车库中，共 6 排，可叠放 2 层
+- 托盘大小 2,000 升或 5,000 升，在旧牛奶冷却室的控制柜处选择
+- 饲料：青草和干草，与地图上的绵羊相同（包括苜蓿、三叶草和地图作物），360,000 升；干草最多可使羊驼毛产量增加 5%
+- 秸秆垫料：120,000 升，每日消耗量与猪相同；满时产量 110%，空时降至 85%
+- 自动供水（按用水量付费）；不产牛奶、液肥或粪肥
+- 羊驼棚和车库可选装太阳能板，13 种颜色可选
+- 价格 268,200，每日维护费 268
+
+使用方法：商店 > 动物围栏 > 羊驼。在控制柜处按 R 更改托盘大小。加载此模组期间，其饲料规则适用于地图上所有的羊驼棚。]]></cs>
+        <ct><![CDATA[Alpaca PRX500 是一座以基礎遊戲中 Hörmann 牛舍為基礎打造的大型羊駝舍，旁邊設有專用的有頂羊駝毛棧板棚。可容納至少 100 隻羊駝，並附有放置時可自訂的牧場。需要 Beans & Alpacas DLC。
+
+- 剪毛位設在舊擠乳位中，佈置成剪毛間
+- 羊駝毛以棧板形式出現在羊駝舍旁的開放式木造車庫中，共 6 排，可堆疊 2 層
+- 棧板大小 2,000 公升或 5,000 公升，在舊牛奶冷卻室的控制櫃選擇
+- 飼料：青草和乾草，與地圖上的綿羊相同（包括苜蓿、三葉草和地圖作物），360,000 公升；乾草最多可使羊駝毛產量增加 5%
+- 稻草墊料：120,000 公升，每日消耗量與豬相同；滿時產量 110%，空時降至 85%
+- 自動供水（依用水量付費）；不產牛奶、液肥或糞肥
+- 羊駝舍和車庫可選裝太陽能板，13 種顏色可選
+- 價格 268,200，每日維護費 268
+
+使用方式：商店 > 動物圍欄 > 羊駝。在控制櫃按 R 變更棧板大小。載入此模組期間，其飼料規則適用於地圖上所有的羊駝舍。]]></ct>
+        <id><![CDATA[Alpaca PRX500 adalah kandang alpaka besar yang dibangun dari kandang Hörmann di game dasar, dengan gudang beratap sendiri untuk palet wol di sebelahnya. Kandang ini menampung minimal 100 alpaka dan memiliki padang rumput yang bisa kamu sesuaikan saat menempatkannya. Membutuhkan DLC Beans & Alpacas.
+
+- Tempat cukur di bekas ruang perah, ditata sebagai ruang cukur
+- Wol keluar sebagai palet di garasi kayu terbuka di sebelah kandang, dalam 6 baris, ditumpuk 2 tingkat
+- Ukuran palet 2.000 l atau 5.000 l, dipilih di lemari kontrol di bekas ruang pendingin susu
+- Pakan: rumput segar dan rumput kering (hay), sama seperti domba di peta (termasuk alfalfa, semanggi, dan tanaman peta), 360.000 l; hay menambah wol hingga +5%
+- Alas jerami: 120.000 l, dipakai setiap hari seperti babi; produksi 110% saat penuh, turun ke 85% saat kosong
+- Pasokan air otomatis (kamu membayar air yang dipakai); tanpa susu, pupuk cair, atau pupuk kandang
+- Panel surya opsional di kandang dan garasi, 13 pilihan warna
+- Harga 268.200, perawatan 268 per hari
+
+Cara pakai: Toko > Kandang Hewan > Alpaka. Tekan R di lemari untuk mengubah ukuran palet. Selama mod ini dimuat, aturan pakannya berlaku untuk semua kandang alpaka di peta.]]></id>
+        <vi><![CDATA[Alpaca PRX500 là chuồng alpaca lớn dựa trên chuồng Hörmann của game gốc, có kho có mái che riêng cho pallet lông bên cạnh. Chuồng chứa ít nhất 100 con alpaca và có đồng cỏ bạn có thể tùy chỉnh khi đặt. Yêu cầu DLC Beans & Alpacas.
+
+- Chỗ xén lông trong khu vắt sữa cũ, được bài trí thành phòng xén lông
+- Lông ra dưới dạng pallet trong một gara gỗ mở cạnh chuồng, 6 hàng, xếp chồng 2 tầng
+- Kích thước pallet 2.000 l hoặc 5.000 l, chọn tại tủ điều khiển trong phòng làm lạnh sữa cũ
+- Thức ăn: cỏ và cỏ khô, giống như cừu trên bản đồ (gồm cả cỏ linh lăng, cỏ ba lá và cây trồng của bản đồ), 360.000 l; cỏ khô tăng lông tới +5%
+- Rơm lót chuồng: 120.000 l, dùng hằng ngày như lợn; năng suất 110% khi đầy, giảm xuống 85% khi hết
+- Cấp nước tự động (bạn trả tiền nước đã dùng); không có sữa, phân lỏng hay phân chuồng
+- Tấm pin mặt trời tùy chọn trên chuồng và gara, 13 màu để chọn
+- Giá 268.200, chi phí duy trì 268 mỗi ngày
+
+Cách dùng: Cửa hàng > Chuồng động vật > Alpaca. Nhấn R tại tủ để đổi kích thước pallet. Khi mod này được tải, quy tắc thức ăn của nó áp dụng cho mọi chuồng alpaca trên bản đồ.]]></vi>
     </description>
     <iconFilename>icon_AlpacaPRX500.dds</iconFilename>
     <multiplayer supported="true" />
@@ -54,15 +362,5 @@ Uses the base-game Hörmann models, no extra textures.]]></en>
         <storeItem xmlFilename="placeables/alpacaPRX500/alpacaPRX500.xml" />
         <storeItem xmlFilename="placeables/alpacaPRX500/fleecePallet5000.xml" />
     </storeItems>
-    <l10n>
-        <text name="prx_alpacaPRX500"><en>Alpaca PRX500</en></text>
-        <text name="prx_palletSizePrompt"><en>Fleece pallet size (now %s)</en></text>
-        <text name="prx_palletSizeTitle"><en>Fleece pallet size</en></text>
-        <text name="prx_palletSizeNow"><en>Now: %s. New fleece pallets spawn at the size you choose.</en></text>
-        <text name="prx_pallet2000"><en>2,000 l</en></text>
-        <text name="prx_pallet5000"><en>5,000 l</en></text>
-        <text name="prx_fleecePallet"><en>Alpaca Fleece</en></text>
-        <text name="prx_strawBedding"><en>Straw Bedding</en></text>
-        <text name="prx_function_alpacaPen"><en>Animal pen for alpacas (holds at least 100)</en></text>
-    </l10n>
+    <l10n filenamePrefix="l10n/l10n" />
 </modDesc>

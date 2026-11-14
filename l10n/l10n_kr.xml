@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="털 팔레트 크기 (현재 %s)"/>
+        <e k="prx_palletSizeTitle" v="털 팔레트 크기"/>
+        <e k="prx_palletSizeNow" v="현재: %s. 새 털 팔레트는 선택한 크기로 생성됩니다."/>
+        <e k="prx_pallet2000" v="2,000L"/>
+        <e k="prx_pallet5000" v="5,000L"/>
+        <e k="prx_fleecePallet" v="알파카 털"/>
+        <e k="prx_strawBedding" v="짚 깔개"/>
+        <e k="prx_function_alpacaPen" v="알파카 우리 (최소 100마리)"/>
+    </elements>
+</l10n>

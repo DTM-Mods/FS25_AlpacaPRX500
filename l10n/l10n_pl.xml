@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Rozmiar palet z wełną (teraz %s)"/>
+        <e k="prx_palletSizeTitle" v="Rozmiar palet z wełną"/>
+        <e k="prx_palletSizeNow" v="Teraz: %s. Nowe palety z wełną pojawiają się w wybranym rozmiarze."/>
+        <e k="prx_pallet2000" v="2 000 l"/>
+        <e k="prx_pallet5000" v="5 000 l"/>
+        <e k="prx_fleecePallet" v="Wełna alpaki"/>
+        <e k="prx_strawBedding" v="Ściółka ze słomy"/>
+        <e k="prx_function_alpacaPen" v="Zagroda dla alpak (co najmniej 100)"/>
+    </elements>
+</l10n>

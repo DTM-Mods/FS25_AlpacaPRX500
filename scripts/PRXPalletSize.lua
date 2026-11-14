@@ -169,6 +169,14 @@ local function text(key, fallback)
     return fallback
 end
 
+-- the current size in the player's language ("5,000 l", "5.000 l", "5 000 l")
+local function sizeText(big)
+    if big then
+        return text("prx_pallet5000", "5,000 l")
+    end
+    return text("prx_pallet2000", "2,000 l")
+end
+
 ----------------------------------------------------------------------------------------------------
 PRXPalletSizeActivatable = {}
 local PRXPalletSizeActivatable_mt = Class(PRXPalletSizeActivatable)
@@ -182,7 +190,7 @@ end
 
 function PRXPalletSizeActivatable:updateText()
     local big = self.placeable[PRXPalletSize.SPEC].big
-    self.activateText = string.format(text("prx_palletSizePrompt", "Fleece pallet size (now %s)"), big and "5,000 l" or "2,000 l")
+    self.activateText = string.format(text("prx_palletSizePrompt", "Fleece pallet size (now %s)"), sizeText(big))
 end
 
 -- register the key like the barn doors do (AnimatedObjectActivatable), but on ACTIVATE_OBJECT (R by default)
@@ -223,7 +231,7 @@ function PRXPalletSizeActivatable:run()
     self.lastRun = now
     local placeable = self.placeable
     local big = placeable[PRXPalletSize.SPEC].big
-    local options = {text("prx_pallet2000", "2,000 l"), text("prx_pallet5000", "5,000 l")}
+    local options = {sizeText(false), sizeText(true)}
     local function callback(index)
         if index == 1 or index == 2 then
             placeable:prxSetPalletSize(index == 2)
@@ -234,7 +242,7 @@ function PRXPalletSizeActivatable:run()
         end
     end
     OptionDialog.show(callback, text("prx_palletSizeTitle", "Fleece pallet size"),
-        string.format(text("prx_palletSizeNow", "Now: %s. New fleece pallets spawn at the size you choose."), big and "5,000 l" or "2,000 l"), options)
+        string.format(text("prx_palletSizeNow", "Now: %s. New fleece pallets spawn at the size you choose."), sizeText(big)), options)
 end
 
 function PRXPalletSizeActivatable:getDistance(x, y, z)

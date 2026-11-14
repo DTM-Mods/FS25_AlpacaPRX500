@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Yün paleti boyutu (şu an %s)"/>
+        <e k="prx_palletSizeTitle" v="Yün paleti boyutu"/>
+        <e k="prx_palletSizeNow" v="Şu an: %s. Yeni yün paletleri seçtiğin boyutta çıkar."/>
+        <e k="prx_pallet2000" v="2.000 l"/>
+        <e k="prx_pallet5000" v="5.000 l"/>
+        <e k="prx_fleecePallet" v="Alpaka Yünü"/>
+        <e k="prx_strawBedding" v="Saman Yataklık"/>
+        <e k="prx_function_alpacaPen" v="Alpaka ağılı (en az 100)"/>
+    </elements>
+</l10n>

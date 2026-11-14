@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Gyapjúraklapok mérete (most %s)"/>
+        <e k="prx_palletSizeTitle" v="Gyapjúraklapok mérete"/>
+        <e k="prx_palletSizeNow" v="Most: %s. Az új gyapjúraklapok a választott méretben jelennek meg."/>
+        <e k="prx_pallet2000" v="2 000 l"/>
+        <e k="prx_pallet5000" v="5 000 l"/>
+        <e k="prx_fleecePallet" v="Alpakagyapjú"/>
+        <e k="prx_strawBedding" v="Szalmaalom"/>
+        <e k="prx_function_alpacaPen" v="Alpakakarám (legalább 100 állat)"/>
+    </elements>
+</l10n>

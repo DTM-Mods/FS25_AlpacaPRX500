@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="毛パレットのサイズ（現在 %s）"/>
+        <e k="prx_palletSizeTitle" v="毛パレットのサイズ"/>
+        <e k="prx_palletSizeNow" v="現在: %s。新しい毛パレットは選んだサイズで出現します。"/>
+        <e k="prx_pallet2000" v="2,000 L"/>
+        <e k="prx_pallet5000" v="5,000 L"/>
+        <e k="prx_fleecePallet" v="アルパカの毛"/>
+        <e k="prx_strawBedding" v="わらの敷料"/>
+        <e k="prx_function_alpacaPen" v="アルパカの飼育場（100頭以上）"/>
+    </elements>
+</l10n>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Kích thước pallet lông (hiện tại %s)"/>
+        <e k="prx_palletSizeTitle" v="Kích thước pallet lông"/>
+        <e k="prx_palletSizeNow" v="Hiện tại: %s. Pallet lông mới sẽ xuất hiện với kích thước bạn chọn."/>
+        <e k="prx_pallet2000" v="2.000 l"/>
+        <e k="prx_pallet5000" v="5.000 l"/>
+        <e k="prx_fleecePallet" v="Lông alpaca"/>
+        <e k="prx_strawBedding" v="Rơm lót chuồng"/>
+        <e k="prx_function_alpacaPen" v="Chuồng alpaca (ít nhất 100 con)"/>
+    </elements>
+</l10n>

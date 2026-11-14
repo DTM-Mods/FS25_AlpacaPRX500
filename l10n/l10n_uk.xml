@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Розмір палет із вовною (зараз %s)"/>
+        <e k="prx_palletSizeTitle" v="Розмір палет із вовною"/>
+        <e k="prx_palletSizeNow" v="Зараз: %s. Нові палети з вовною з’являються вибраного розміру."/>
+        <e k="prx_pallet2000" v="2 000 л"/>
+        <e k="prx_pallet5000" v="5 000 л"/>
+        <e k="prx_fleecePallet" v="Вовна альпаки"/>
+        <e k="prx_strawBedding" v="Солом’яна підстилка"/>
+        <e k="prx_function_alpacaPen" v="Загін для альпак (щонайменше 100)"/>
+    </elements>
+</l10n>

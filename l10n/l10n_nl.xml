@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <elements>
+        <e k="prx_alpacaPRX500" v="Alpaca PRX500"/>
+        <e k="prx_palletSizePrompt" v="Grootte wolpallets (nu %s)"/>
+        <e k="prx_palletSizeTitle" v="Grootte wolpallets"/>
+        <e k="prx_palletSizeNow" v="Nu: %s. Nieuwe wolpallets verschijnen in de gekozen grootte."/>
+        <e k="prx_pallet2000" v="2.000 l"/>
+        <e k="prx_pallet5000" v="5.000 l"/>
+        <e k="prx_fleecePallet" v="Alpacawol"/>
+        <e k="prx_strawBedding" v="Strooisel van stro"/>
+        <e k="prx_function_alpacaPen" v="Dierenverblijf voor alpaca's (minstens 100)"/>
+    </elements>
+</l10n>
