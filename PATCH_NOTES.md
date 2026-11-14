@@ -4,6 +4,10 @@
 
 # Alpaca PRX500 – Patch notes
 
+## 1.17.2.1 – 2026-11-13 – Author name
+
+- The author now shows as **DTM Mods, PropaineX** in the mod list.
+
 ## 1.17.2.0 – 2026-11-08 – Release build
 
 Tested in game (single player).
