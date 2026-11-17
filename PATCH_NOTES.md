@@ -4,6 +4,10 @@
 
 # Alpaca PRX500 – Patch notes
 
+## 1.17.2.3
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.
+
 ## 1.17.2.2 – 2026-11-13 – All 27 game languages
 
 Untested in game.

@@ -57,13 +57,16 @@ function PRXAlpacaFence.fenceOnLoad(self, superFunc, savegame)
         return superFunc(self, savegame)
     end
 
+    if not fileExists(dlcDir .. PRXAlpacaFence.FENCE_XML) then
+        Logging.xmlError(self.xmlFile, "[Alpaca PRX500] alpaca fence '%s' not found in the Beans & Alpacas DLC", PRXAlpacaFence.FENCE_XML)
+        return superFunc(self, savegame)
+    end
+
+    -- the fence (and the i3d its xml names) load from the DLC folder; our own folder comes back right after
     local ownDir = self.baseDirectory
     self.baseDirectory = dlcDir
-    local ok, err = pcall(superFunc, self, savegame)
+    superFunc(self, savegame)
     self.baseDirectory = ownDir
-    if not ok then
-        error(err, 0)
-    end
 end
 
 PlaceableHusbandryFence.onLoad = Utils.overwrittenFunction(PlaceableHusbandryFence.onLoad, PRXAlpacaFence.fenceOnLoad)

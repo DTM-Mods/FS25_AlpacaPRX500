@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="113">
+<modDesc descVersion="115">
     <author>DTM Mods, PropaineX</author>
-    <version>1.17.2.2</version>
+    <version>1.17.2.3</version>
     <title>
         <en>Alpaca PRX500</en>
-        <de>Alpaca PRX500</de>
-        <fr>Alpaca PRX500</fr>
     </title>
     <description>
         <en><![CDATA[Alpaca PRX500 is a large alpaca barn built on the base-game Hörmann barn, with its own covered fleece pallet shed beside it. It holds at least 100 alpacas and comes with a pasture you can customize when you place it. Requires the Beans & Alpacas DLC.
@@ -19,7 +17,11 @@
 - Optional solar panels on the barn and the garage, 13 colour choices
 - Price 268,200, upkeep 268 per day
 
-How to use: Shop > Animal Pens > Alpacas. Press R at the cabinet to change the pallet size. While this mod is loaded, its food rules apply to every alpaca barn on the map.]]></en>
+How to use: Shop > Animal Pens > Alpacas. Press R at the cabinet to change the pallet size. While this mod is loaded, its food rules apply to every alpaca barn on the map.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></en>
         <de><![CDATA[Alpaca PRX500 ist ein großer Alpakastall auf Basis des Hörmann-Stalls aus dem Grundspiel, mit eigenem überdachtem Unterstand für Wollpaletten daneben. Er fasst mindestens 100 Alpakas und hat eine Weide, die du beim Platzieren anpassen kannst. Benötigt den Beans & Alpacas DLC.
 
 - Scherplatz im alten Melkstand, als Scherraum eingerichtet
@@ -31,7 +33,11 @@ How to use: Shop > Animal Pens > Alpacas. Press R at the cabinet to change the p
 - Solaranlage auf Stall und Garage als Option, 13 Farben zur Auswahl
 - Preis 268.200, Unterhalt 268 pro Tag
 
-Bedienung: Shop > Tiergehege > Alpakas. Am Schaltschrank R drücken, um die Palettengröße zu ändern. Solange dieser Mod aktiv ist, gelten seine Futterregeln für alle Alpakaställe auf der Karte.]]></de>
+Bedienung: Shop > Tiergehege > Alpakas. Am Schaltschrank R drücken, um die Palettengröße zu ändern. Solange dieser Mod aktiv ist, gelten seine Futterregeln für alle Alpakaställe auf der Karte.
+
+Changelog 1.17.2.3:
+- Erfüllt die GIANTS-ModHub-Prüfungen (TestRunner): Texturen, Icon und modDesc aktualisiert.
+- Fehler werden nicht mehr versteckt und erscheinen im Log.]]></de>
         <fr><![CDATA[Alpaca PRX500 est une grande étable à alpagas construite sur l'étable Hörmann du jeu de base, avec son propre abri couvert pour les palettes de laine. Elle accueille au moins 100 alpagas et dispose d'un pâturage que vous pouvez personnaliser en la plaçant. Nécessite le DLC Beans & Alpacas.
 
 - Poste de tonte dans l'ancienne salle de traite, aménagée en salle de tonte
@@ -43,7 +49,11 @@ Bedienung: Shop > Tiergehege > Alpakas. Am Schaltschrank R drücken, um die Pale
 - Panneaux solaires en option sur l'étable et le garage, 13 couleurs au choix
 - Prix 268 200, entretien 268 par jour
 
-Utilisation : Boutique > Enclos > Alpagas. Appuyez sur R devant l'armoire pour changer la taille des palettes. Tant que ce mod est chargé, ses règles de nourriture s'appliquent à toutes les étables à alpagas de la carte.]]></fr>
+Utilisation : Boutique > Enclos > Alpagas. Appuyez sur R devant l'armoire pour changer la taille des palettes. Tant que ce mod est chargé, ses règles de nourriture s'appliquent à toutes les étables à alpagas de la carte.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></fr>
         <fc><![CDATA[Alpaca PRX500 est une grande étable à alpagas construite sur l'étable Hörmann du jeu de base, avec son propre abri couvert pour les palettes de laine. Elle accueille au moins 100 alpagas et dispose d'un pâturage que vous pouvez personnaliser en la plaçant. Nécessite le DLC Beans & Alpacas.
 
 - Poste de tonte dans l'ancienne salle de traite, aménagée en salle de tonte
@@ -55,7 +65,11 @@ Utilisation : Boutique > Enclos > Alpagas. Appuyez sur R devant l'armoire pour c
 - Panneaux solaires en option sur l'étable et le garage, 13 couleurs au choix
 - Prix 268 200, entretien 268 par jour
 
-Utilisation : Magasin > Enclos > Alpagas. Appuyez sur R devant l'armoire pour changer la taille des palettes. Tant que ce mod est chargé, ses règles de nourriture s'appliquent à toutes les étables à alpagas de la carte.]]></fc>
+Utilisation : Magasin > Enclos > Alpagas. Appuyez sur R devant l'armoire pour changer la taille des palettes. Tant que ce mod est chargé, ses règles de nourriture s'appliquent à toutes les étables à alpagas de la carte.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></fc>
         <es><![CDATA[Alpaca PRX500 es un gran establo para alpacas basado en el establo Hörmann del juego base, con su propio cobertizo cubierto para los palés de lana al lado. Aloja al menos 100 alpacas y tiene un pasto que puedes personalizar al colocarlo. Requiere el DLC Beans & Alpacas.
 
 - Zona de esquilado en la antigua sala de ordeño, equipada como sala de esquilado
@@ -67,7 +81,11 @@ Utilisation : Magasin > Enclos > Alpagas. Appuyez sur R devant l'armoire pour ch
 - Paneles solares opcionales en el establo y el garaje, 13 colores a elegir
 - Precio 268.200, mantenimiento 268 al día
 
-Uso: Tienda > Recintos de animales > Alpacas. Pulsa R en el armario para cambiar el tamaño de los palés. Mientras este mod esté cargado, sus reglas de comida se aplican a todos los establos de alpacas del mapa.]]></es>
+Uso: Tienda > Recintos de animales > Alpacas. Pulsa R en el armario para cambiar el tamaño de los palés. Mientras este mod esté cargado, sus reglas de comida se aplican a todos los establos de alpacas del mapa.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></es>
         <ea><![CDATA[Alpaca PRX500 es un gran establo para alpacas basado en el establo Hörmann del juego base, con su propio cobertizo cubierto para los pallets de lana al lado. Aloja al menos 100 alpacas y tiene un pasto que puedes personalizar al colocarlo. Requiere el DLC Beans & Alpacas.
 
 - Zona de esquilado en la antigua sala de ordeño, equipada como sala de esquilado
@@ -79,7 +97,11 @@ Uso: Tienda > Recintos de animales > Alpacas. Pulsa R en el armario para cambiar
 - Paneles solares opcionales en el establo y el garaje, 13 colores a elegir
 - Precio 268,200, mantenimiento 268 al día
 
-Uso: Tienda > Corrales de animales > Alpacas. Presiona R en el armario para cambiar el tamaño de los pallets. Mientras este mod esté cargado, sus reglas de comida se aplican a todos los establos de alpacas del mapa.]]></ea>
+Uso: Tienda > Corrales de animales > Alpacas. Presiona R en el armario para cambiar el tamaño de los pallets. Mientras este mod esté cargado, sus reglas de comida se aplican a todos los establos de alpacas del mapa.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></ea>
         <it><![CDATA[Alpaca PRX500 è una grande stalla per alpaca basata sulla stalla Hörmann del gioco base, con una propria tettoia coperta per i pallet di lana accanto. Ospita almeno 100 alpaca e ha un pascolo che puoi personalizzare quando la posizioni. Richiede il DLC Beans & Alpacas.
 
 - Postazione di tosatura nella vecchia sala di mungitura, arredata come sala di tosatura
@@ -91,7 +113,11 @@ Uso: Tienda > Corrales de animales > Alpacas. Presiona R en el armario para camb
 - Pannelli solari opzionali sulla stalla e sul garage, 13 colori a scelta
 - Prezzo 268.200, manutenzione 268 al giorno
 
-Uso: Negozio > Recinti per animali > Alpaca. Premi R all'armadio per cambiare la dimensione dei pallet. Finché questa mod è caricata, le sue regole sul cibo valgono per tutte le stalle per alpaca della mappa.]]></it>
+Uso: Negozio > Recinti per animali > Alpaca. Premi R all'armadio per cambiare la dimensione dei pallet. Finché questa mod è caricata, le sue regole sul cibo valgono per tutte le stalle per alpaca della mappa.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></it>
         <pt><![CDATA[Alpaca PRX500 é um grande estábulo para alpacas baseado no estábulo Hörmann do jogo base, com o seu próprio telheiro coberto para as paletes de lã ao lado. Aloja pelo menos 100 alpacas e tem um pasto que pode personalizar ao colocá-lo. Requer o DLC Beans & Alpacas.
 
 - Posto de tosquia na antiga sala de ordenha, equipada como sala de tosquia
@@ -103,7 +129,11 @@ Uso: Negozio > Recinti per animali > Alpaca. Premi R all'armadio per cambiare la
 - Painéis solares opcionais no estábulo e na garagem, 13 cores à escolha
 - Preço 268 200, manutenção 268 por dia
 
-Utilização: Loja > Cercados de animais > Alpacas. Prima R no armário para mudar o tamanho das paletes. Enquanto este mod estiver carregado, as suas regras de alimentação aplicam-se a todos os estábulos de alpacas do mapa.]]></pt>
+Utilização: Loja > Cercados de animais > Alpacas. Prima R no armário para mudar o tamanho das paletes. Enquanto este mod estiver carregado, as suas regras de alimentação aplicam-se a todos os estábulos de alpacas do mapa.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></pt>
         <br><![CDATA[Alpaca PRX500 é um grande galpão para alpacas baseado no galpão Hörmann do jogo base, com seu próprio abrigo coberto para os pallets de lã ao lado. Comporta pelo menos 100 alpacas e tem um pasto que você pode personalizar ao posicioná-lo. Requer o DLC Beans & Alpacas.
 
 - Local de tosquia na antiga sala de ordenha, montada como sala de tosquia
@@ -115,7 +145,11 @@ Utilização: Loja > Cercados de animais > Alpacas. Prima R no armário para mud
 - Painéis solares opcionais no galpão e na garagem, 13 cores à escolha
 - Preço 268.200, manutenção 268 por dia
 
-Como usar: Loja > Currais de animais > Alpacas. Pressione R no armário para mudar o tamanho dos pallets. Enquanto este mod estiver carregado, suas regras de alimentação valem para todos os galpões de alpacas do mapa.]]></br>
+Como usar: Loja > Currais de animais > Alpacas. Pressione R no armário para mudar o tamanho dos pallets. Enquanto este mod estiver carregado, suas regras de alimentação valem para todos os galpões de alpacas do mapa.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></br>
         <nl><![CDATA[Alpaca PRX500 is een grote alpacastal op basis van de Hörmann-stal uit het basisspel, met een eigen overdekte schuur voor wolpallets ernaast. Er passen minstens 100 alpaca's in en hij heeft een weide die je bij het plaatsen kunt aanpassen. Vereist de Beans & Alpacas DLC.
 
 - Scheerplek in de oude melkstal, ingericht als scheerruimte
@@ -127,7 +161,11 @@ Como usar: Loja > Currais de animais > Alpacas. Pressione R no armário para mud
 - Optionele zonnepanelen op de stal en de garage, 13 kleuren naar keuze
 - Prijs 268.200, onderhoud 268 per dag
 
-Gebruik: Winkel > Dierenverblijven > Alpaca's. Druk bij de kast op R om de palletgrootte te wijzigen. Zolang deze mod geladen is, gelden de voerregels voor alle alpacastallen op de kaart.]]></nl>
+Gebruik: Winkel > Dierenverblijven > Alpaca's. Druk bij de kast op R om de palletgrootte te wijzigen. Zolang deze mod geladen is, gelden de voerregels voor alle alpacastallen op de kaart.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></nl>
         <pl><![CDATA[Alpaca PRX500 to duża obora dla alpak zbudowana na bazie obory Hörmann z gry podstawowej, z własną zadaszoną wiatą na palety z wełną obok. Mieści co najmniej 100 alpak i ma pastwisko, które możesz dostosować podczas stawiania. Wymaga DLC Beans & Alpacas.
 
 - Stanowisko strzyżenia w dawnej hali udojowej, urządzonej jako strzyżalnia
@@ -139,7 +177,11 @@ Gebruik: Winkel > Dierenverblijven > Alpaca's. Druk bij de kast op R om de palle
 - Opcjonalne panele słoneczne na oborze i garażu, 13 kolorów do wyboru
 - Cena 268 200, utrzymanie 268 dziennie
 
-Obsługa: Sklep > Zagrody dla zwierząt > Alpaki. Naciśnij R przy szafce, aby zmienić rozmiar palet. Dopóki ten mod jest załadowany, jego zasady paszy obowiązują we wszystkich oborach dla alpak na mapie.]]></pl>
+Obsługa: Sklep > Zagrody dla zwierząt > Alpaki. Naciśnij R przy szafce, aby zmienić rozmiar palet. Dopóki ten mod jest załadowany, jego zasady paszy obowiązują we wszystkich oborach dla alpak na mapie.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></pl>
         <cz><![CDATA[Alpaca PRX500 je velká stáj pro alpaky postavená na stáji Hörmann ze základní hry, s vlastním krytým přístřeškem na palety s vlnou vedle ní. Pojme nejméně 100 alpak a má pastvinu, kterou si můžeš upravit při umístění. Vyžaduje DLC Beans & Alpacas.
 
 - Místo pro stříhání ve staré dojírně, zařízené jako střihárna
@@ -151,7 +193,11 @@ Obsługa: Sklep > Zagrody dla zwierząt > Alpaki. Naciśnij R przy szafce, aby z
 - Volitelné solární panely na stáji a garáži, 13 barev na výběr
 - Cena 268 200, údržba 268 za den
 
-Ovládání: Obchod > Výběhy pro zvířata > Alpaky. U rozvaděče stiskni R pro změnu velikosti palet. Dokud je tento mód načten, platí jeho pravidla krmení pro všechny stáje pro alpaky na mapě.]]></cz>
+Ovládání: Obchod > Výběhy pro zvířata > Alpaky. U rozvaděče stiskni R pro změnu velikosti palet. Dokud je tento mód načten, platí jeho pravidla krmení pro všechny stáje pro alpaky na mapě.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></cz>
         <hu><![CDATA[Az Alpaca PRX500 egy nagy alpakaistálló az alapjáték Hörmann istállója alapján, mellette saját fedett gyapjúraklap-tárolóval. Legalább 100 alpakát fogad be, és lerakáskor testreszabható legelője van. A Beans & Alpacas DLC szükséges hozzá.
 
 - Nyírási hely a régi fejőállásban, nyíróhelyiségként berendezve
@@ -163,7 +209,11 @@ Ovládání: Obchod > Výběhy pro zvířata > Alpaky. U rozvaděče stiskni R p
 - Opcionális napelemek az istállón és a garázson, 13 szín közül választhatsz
 - Ár 268 200, fenntartás napi 268
 
-Használat: Bolt > Állattartó helyek > Alpakák. Nyomd meg az R-t a szekrénynél a raklapméret módosításához. Amíg ez a mod be van töltve, a takarmányszabályai a térkép összes alpakaistállójára érvényesek.]]></hu>
+Használat: Bolt > Állattartó helyek > Alpakák. Nyomd meg az R-t a szekrénynél a raklapméret módosításához. Amíg ez a mod be van töltve, a takarmányszabályai a térkép összes alpakaistállójára érvényesek.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></hu>
         <ro><![CDATA[Alpaca PRX500 este un grajd mare pentru alpaca, construit pe baza grajdului Hörmann din jocul de bază, cu propriul șopron acoperit pentru paleții de lână alături. Găzduiește cel puțin 100 de alpaca și are o pășune pe care o poți personaliza la amplasare. Necesită DLC-ul Beans & Alpacas.
 
 - Loc de tuns în vechea sală de muls, amenajată ca sală de tuns
@@ -175,7 +225,11 @@ Használat: Bolt > Állattartó helyek > Alpakák. Nyomd meg az R-t a szekrényn
 - Panouri solare opționale pe grajd și pe garaj, 13 culori la alegere
 - Preț 268.200, întreținere 268 pe zi
 
-Utilizare: Magazin > Țarcuri pentru animale > Alpaca. Apasă R la dulap pentru a schimba mărimea paleților. Cât timp acest mod este încărcat, regulile lui de hrănire se aplică tuturor grajdurilor de alpaca de pe hartă.]]></ro>
+Utilizare: Magazin > Țarcuri pentru animale > Alpaca. Apasă R la dulap pentru a schimba mărimea paleților. Cât timp acest mod este încărcat, regulile lui de hrănire se aplică tuturor grajdurilor de alpaca de pe hartă.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></ro>
         <tr><![CDATA[Alpaca PRX500, ana oyundaki Hörmann ahırı temel alınarak yapılmış büyük bir alpaka ahırıdır ve yanında yün paletleri için kendi üstü kapalı sundurması vardır. En az 100 alpaka barındırır ve yerleştirirken özelleştirebileceğin bir merası vardır. Beans & Alpacas DLC'si gerekir.
 
 - Eski sağım bölmesinde, kırkım odası olarak döşenmiş kırkım yeri
@@ -187,7 +241,11 @@ Utilizare: Magazin > Țarcuri pentru animale > Alpaca. Apasă R la dulap pentru 
 - Ahırda ve garajda isteğe bağlı güneş panelleri, 13 renk seçeneği
 - Fiyat 268.200, bakım günde 268
 
-Kullanım: Mağaza > Hayvan Ağılları > Alpakalar. Paletlerin boyutunu değiştirmek için dolabın yanında R'ye bas. Bu mod yüklü olduğu sürece yem kuralları haritadaki tüm alpaka ahırlarında geçerlidir.]]></tr>
+Kullanım: Mağaza > Hayvan Ağılları > Alpakalar. Paletlerin boyutunu değiştirmek için dolabın yanında R'ye bas. Bu mod yüklü olduğu sürece yem kuralları haritadaki tüm alpaka ahırlarında geçerlidir.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></tr>
         <ru><![CDATA[Alpaca PRX500 — большой хлев для альпак на основе хлева Hörmann из базовой игры, с собственным крытым навесом для паллет с шерстью рядом. Вмещает не менее 100 альпак и имеет пастбище, которое можно настроить при установке. Требуется DLC Beans & Alpacas.
 
 - Место для стрижки в старом доильном зале, оборудованном как стригальня
@@ -199,7 +257,11 @@ Kullanım: Mağaza > Hayvan Ağılları > Alpakalar. Paletlerin boyutunu değiş
 - Солнечные панели на хлеву и гараже по желанию, 13 цветов на выбор
 - Цена 268 200, содержание 268 в день
 
-Использование: Магазин > Загоны для животных > Альпаки. Нажмите R у шкафа, чтобы изменить размер паллет. Пока этот мод загружен, его правила кормления действуют для всех загонов альпак на карте.]]></ru>
+Использование: Магазин > Загоны для животных > Альпаки. Нажмите R у шкафа, чтобы изменить размер паллет. Пока этот мод загружен, его правила кормления действуют для всех загонов альпак на карте.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></ru>
         <uk><![CDATA[Alpaca PRX500 — великий хлів для альпак на основі хліва Hörmann з базової гри, з власним критим навісом для палет із вовною поруч. Вміщує щонайменше 100 альпак і має пасовище, яке можна налаштувати під час встановлення. Потрібне DLC Beans & Alpacas.
 
 - Місце для стрижки в старій доїльній залі, облаштованій як стригальня
@@ -211,7 +273,11 @@ Kullanım: Mağaza > Hayvan Ağılları > Alpakalar. Paletlerin boyutunu değiş
 - Сонячні панелі на хліві й гаражі за бажанням, 13 кольорів на вибір
 - Ціна 268 200, утримання 268 на день
 
-Використання: Магазин > Загони для тварин > Альпаки. Натисніть R біля шафи, щоб змінити розмір палет. Поки цей мод завантажено, його правила годування діють для всіх загонів альпак на карті.]]></uk>
+Використання: Магазин > Загони для тварин > Альпаки. Натисніть R біля шафи, щоб змінити розмір палет. Поки цей мод завантажено, його правила годування діють для всіх загонів альпак на карті.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></uk>
         <da><![CDATA[Alpaca PRX500 er en stor alpakastald bygget på Hörmann-stalden fra grundspillet, med sit eget overdækkede skur til uldpaller ved siden af. Den rummer mindst 100 alpakaer og har en græsmark, du kan tilpasse, når du placerer den. Kræver Beans & Alpacas DLC'en.
 
 - Klippeplads i den gamle malkestald, indrettet som klipperum
@@ -223,7 +289,11 @@ Kullanım: Mağaza > Hayvan Ağılları > Alpakalar. Paletlerin boyutunu değiş
 - Valgfrie solpaneler på stalden og garagen, 13 farver at vælge imellem
 - Pris 268.200, vedligeholdelse 268 om dagen
 
-Brug: Butik > Dyrefolde > Alpakaer. Tryk R ved skabet for at ændre pallestørrelsen. Så længe dette mod er indlæst, gælder dets foderregler for alle alpakastalde på kortet.]]></da>
+Brug: Butik > Dyrefolde > Alpakaer. Tryk R ved skabet for at ændre pallestørrelsen. Så længe dette mod er indlæst, gælder dets foderregler for alle alpakastalde på kortet.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></da>
         <fi><![CDATA[Alpaca PRX500 on suuri alpakkanavetta, joka perustuu peruspelin Hörmann-navettaan, ja sen vieressä on oma katettu katos villalavoille. Siihen mahtuu vähintään 100 alpakkaa, ja sen laitumen voi muokata sijoittaessa. Vaatii Beans & Alpacas -DLC:n.
 
 - Keritsemispaikka vanhassa lypsyasemassa, joka on sisustettu keritsemishuoneeksi
@@ -235,7 +305,11 @@ Brug: Butik > Dyrefolde > Alpakaer. Tryk R ved skabet for at ændre pallestørre
 - Valinnaiset aurinkopaneelit navetassa ja tallissa, 13 väriä
 - Hinta 268 200, ylläpito 268 päivässä
 
-Käyttö: Kauppa > Eläinaitaukset > Alpakat. Paina R kaapilla vaihtaaksesi lavakokoa. Niin kauan kuin tämä modi on ladattu, sen rehusäännöt koskevat kaikkia kartan alpakkanavettoja.]]></fi>
+Käyttö: Kauppa > Eläinaitaukset > Alpakat. Paina R kaapilla vaihtaaksesi lavakokoa. Niin kauan kuin tämä modi on ladattu, sen rehusäännöt koskevat kaikkia kartan alpakkanavettoja.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></fi>
         <no><![CDATA[Alpaca PRX500 er et stort alpakkafjøs bygget på Hörmann-fjøset fra grunnspillet, med sitt eget overbygde skur for ullpaller ved siden av. Det har plass til minst 100 alpakkaer og har et beite du kan tilpasse når du plasserer det. Krever Beans & Alpacas-DLC-en.
 
 - Klippeplass i den gamle melkestallen, innredet som klipperom
@@ -247,7 +321,11 @@ Käyttö: Kauppa > Eläinaitaukset > Alpakat. Paina R kaapilla vaihtaaksesi lava
 - Valgfrie solcellepaneler på fjøset og garasjen, 13 farger å velge mellom
 - Pris 268 200, vedlikehold 268 per dag
 
-Bruk: Butikk > Dyreinnhegninger > Alpakkaer. Trykk R ved skapet for å endre pallestørrelsen. Så lenge denne moden er lastet, gjelder fôrreglene for alle alpakkafjøs på kartet.]]></no>
+Bruk: Butikk > Dyreinnhegninger > Alpakkaer. Trykk R ved skapet for å endre pallestørrelsen. Så lenge denne moden er lastet, gjelder fôrreglene for alle alpakkafjøs på kartet.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></no>
         <sv><![CDATA[Alpaca PRX500 är en stor alpackaladugård byggd på Hörmann-ladugården från grundspelet, med ett eget täckt skjul för ullpallar bredvid. Den rymmer minst 100 alpackor och har en betesmark som du kan anpassa när du placerar den. Kräver Beans & Alpacas-DLC:n.
 
 - Klippningsplats i det gamla mjölkningsstallet, inrett som klipprum
@@ -259,7 +337,11 @@ Bruk: Butikk > Dyreinnhegninger > Alpakkaer. Trykk R ved skapet for å endre pal
 - Valfria solpaneler på ladugården och garaget, 13 färger att välja mellan
 - Pris 268 200, underhåll 268 per dag
 
-Användning: Butik > Djurhägn > Alpackor. Tryck R vid skåpet för att byta pallstorlek. Så länge denna mod är laddad gäller dess foderregler för alla alpackaladugårdar på kartan.]]></sv>
+Användning: Butik > Djurhägn > Alpackor. Tryck R vid skåpet för att byta pallstorlek. Så länge denna mod är laddad gäller dess foderregler för alla alpackaladugårdar på kartan.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></sv>
         <jp><![CDATA[Alpaca PRX500は、ベースゲームのHörmann牛舎をもとにした大型のアルパカ舎で、隣に毛パレット用の屋根付き小屋があります。アルパカを100頭以上飼うことができ、設置時にカスタマイズできる放牧地が付いています。Beans & Alpacas DLCが必要です。
 
 - 古い搾乳ストールに毛刈り場（毛刈り室として内装済み）
@@ -271,7 +353,11 @@ Användning: Butik > Djurhägn > Alpackor. Tryck R vid skåpet för att byta pal
 - アルパカ舎とガレージにオプションのソーラーパネル、13色から選択
 - 価格 268,200、維持費 1日268
 
-使い方: ショップ > 動物の囲い > アルパカ。制御盤でRを押すとパレットサイズを変更できます。このModが読み込まれている間、その餌のルールはマップ上のすべてのアルパカ舎に適用されます。]]></jp>
+使い方: ショップ > 動物の囲い > アルパカ。制御盤でRを押すとパレットサイズを変更できます。このModが読み込まれている間、その餌のルールはマップ上のすべてのアルパカ舎に適用されます。
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></jp>
         <kr><![CDATA[Alpaca PRX500은 기본 게임의 Hörmann 축사를 바탕으로 만든 대형 알파카 축사로, 옆에 털 팔레트용 지붕 있는 창고가 따로 있습니다. 알파카를 최소 100마리 수용하며, 배치할 때 사용자 지정할 수 있는 목초지가 있습니다. Beans & Alpacas DLC가 필요합니다.
 
 - 예전 착유장에 마련된 털 깎기 공간 (털 깎기 방으로 꾸며짐)
@@ -283,7 +369,11 @@ Användning: Butik > Djurhägn > Alpackor. Tryck R vid skåpet för att byta pal
 - 축사와 차고에 선택형 태양광 패널, 13가지 색상
 - 가격 268,200, 유지비 하루 268
 
-사용법: 상점 > 동물 우리 > 알파카. 제어반에서 R을 눌러 팔레트 크기를 바꿉니다. 이 모드가 로드되어 있는 동안 사료 규칙은 맵의 모든 알파카 축사에 적용됩니다.]]></kr>
+사용법: 상점 > 동물 우리 > 알파카. 제어반에서 R을 눌러 팔레트 크기를 바꿉니다. 이 모드가 로드되어 있는 동안 사료 규칙은 맵의 모든 알파카 축사에 적용됩니다.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></kr>
         <cs><![CDATA[Alpaca PRX500 是一座以基础游戏中 Hörmann 牛棚为基础建造的大型羊驼棚，旁边配有专用的带顶羊驼毛托盘棚。可容纳至少 100 只羊驼，并带有放置时可自定义的牧场。需要 Beans & Alpacas DLC。
 
 - 剪毛位设在旧挤奶位中，布置成剪毛间
@@ -295,7 +385,11 @@ Användning: Butik > Djurhägn > Alpackor. Tryck R vid skåpet för att byta pal
 - 羊驼棚和车库可选装太阳能板，13 种颜色可选
 - 价格 268,200，每日维护费 268
 
-使用方法：商店 > 动物围栏 > 羊驼。在控制柜处按 R 更改托盘大小。加载此模组期间，其饲料规则适用于地图上所有的羊驼棚。]]></cs>
+使用方法：商店 > 动物围栏 > 羊驼。在控制柜处按 R 更改托盘大小。加载此模组期间，其饲料规则适用于地图上所有的羊驼棚。
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></cs>
         <ct><![CDATA[Alpaca PRX500 是一座以基礎遊戲中 Hörmann 牛舍為基礎打造的大型羊駝舍，旁邊設有專用的有頂羊駝毛棧板棚。可容納至少 100 隻羊駝，並附有放置時可自訂的牧場。需要 Beans & Alpacas DLC。
 
 - 剪毛位設在舊擠乳位中，佈置成剪毛間
@@ -307,7 +401,11 @@ Användning: Butik > Djurhägn > Alpackor. Tryck R vid skåpet för att byta pal
 - 羊駝舍和車庫可選裝太陽能板，13 種顏色可選
 - 價格 268,200，每日維護費 268
 
-使用方式：商店 > 動物圍欄 > 羊駝。在控制櫃按 R 變更棧板大小。載入此模組期間，其飼料規則適用於地圖上所有的羊駝舍。]]></ct>
+使用方式：商店 > 動物圍欄 > 羊駝。在控制櫃按 R 變更棧板大小。載入此模組期間，其飼料規則適用於地圖上所有的羊駝舍。
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></ct>
         <id><![CDATA[Alpaca PRX500 adalah kandang alpaka besar yang dibangun dari kandang Hörmann di game dasar, dengan gudang beratap sendiri untuk palet wol di sebelahnya. Kandang ini menampung minimal 100 alpaka dan memiliki padang rumput yang bisa kamu sesuaikan saat menempatkannya. Membutuhkan DLC Beans & Alpacas.
 
 - Tempat cukur di bekas ruang perah, ditata sebagai ruang cukur
@@ -319,7 +417,11 @@ Användning: Butik > Djurhägn > Alpackor. Tryck R vid skåpet för att byta pal
 - Panel surya opsional di kandang dan garasi, 13 pilihan warna
 - Harga 268.200, perawatan 268 per hari
 
-Cara pakai: Toko > Kandang Hewan > Alpaka. Tekan R di lemari untuk mengubah ukuran palet. Selama mod ini dimuat, aturan pakannya berlaku untuk semua kandang alpaka di peta.]]></id>
+Cara pakai: Toko > Kandang Hewan > Alpaka. Tekan R di lemari untuk mengubah ukuran palet. Selama mod ini dimuat, aturan pakannya berlaku untuk semua kandang alpaka di peta.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></id>
         <vi><![CDATA[Alpaca PRX500 là chuồng alpaca lớn dựa trên chuồng Hörmann của game gốc, có kho có mái che riêng cho pallet lông bên cạnh. Chuồng chứa ít nhất 100 con alpaca và có đồng cỏ bạn có thể tùy chỉnh khi đặt. Yêu cầu DLC Beans & Alpacas.
 
 - Chỗ xén lông trong khu vắt sữa cũ, được bài trí thành phòng xén lông
@@ -331,7 +433,11 @@ Cara pakai: Toko > Kandang Hewan > Alpaka. Tekan R di lemari untuk mengubah ukur
 - Tấm pin mặt trời tùy chọn trên chuồng và gara, 13 màu để chọn
 - Giá 268.200, chi phí duy trì 268 mỗi ngày
 
-Cách dùng: Cửa hàng > Chuồng động vật > Alpaca. Nhấn R tại tủ để đổi kích thước pallet. Khi mod này được tải, quy tắc thức ăn của nó áp dụng cho mọi chuồng alpaca trên bản đồ.]]></vi>
+Cách dùng: Cửa hàng > Chuồng động vật > Alpaca. Nhấn R tại tủ để đổi kích thước pallet. Khi mod này được tải, quy tắc thức ăn của nó áp dụng cho mọi chuồng alpaca trên bản đồ.
+
+Changelog 1.17.2.3:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.]]></vi>
     </description>
     <iconFilename>icon_AlpacaPRX500.dds</iconFilename>
     <multiplayer supported="true" />
