@@ -4,6 +4,10 @@
 
 # Alpaca PRX500 – Patch notes
 
+## 1.17.2.5
+
+- Description in GIANTS' ModHub layout (category, price, upkeep or hotkeys at the top).
+
 ## 1.17.2.4
 
 - Updated for the current game version: modDesc descVersion 116 (the game build of 2026-10-27; GIANTS TestRunner 0.9.24 accepts only 116).
